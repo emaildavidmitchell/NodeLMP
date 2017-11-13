@@ -1,0 +1,14 @@
+<% include header %>
+	<div class="container">
+		<svg width="750" height="500"></svg>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="network_script.js"></script>
+		<script>
+			var source_data = <%- JSON.stringify(source) %>;
+			var node_set = [];
+			var edge_set = [];
+			add_node(node_set, edge_set, source_data, true);
+		</script>
+		<script type="text/javascript" src="d3Graph.js"></script>
+	</div>
+<% include footer %>
