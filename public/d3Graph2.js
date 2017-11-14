@@ -1,7 +1,7 @@
 var svg = d3.select("svg"),
 	w = parseInt(svg.style("width")),
 	h = parseInt(svg.style("height")),
-	r = 5,
+	r = 20,
 	transform = d3.zoomIdentity,
 	e = svg.append("g"),
 	g = svg.append("g");
@@ -60,16 +60,16 @@ edges = e.selectAll("g")
 	.attr("class","edges")
 	.append("line")
 	.attr("x1", function(d) {
-		return d.source.x;
+		return node_set[d.source].x;
 	})
 	.attr("y1", function(d) {
-		return d.source.y;
+		return node_set[d.source].y;
 	})
 	.attr("x2", function(d) {
-		return d.dest.x;
+		return node_set[d.dest].x;
 	})
 	.attr("y2", function(d) {
-		return d.dest.y;
+		return node_set[d.dest].y;
 	})
 	.attr("stroke", "green");
 
@@ -127,17 +127,17 @@ function dragged(d) {
   e.selectAll(".edges")
   	.select("line")
   	.attr("x1", function(d) {
-  		return d.source.x;
+  		return node_set[d.source].x;
   	})
   	.attr("y1", function(d) {
-  		return d.source.y;
+  		return node_set[d.source].y;
 
   	})
   	.attr("x2", function(d) {
-  		return d.dest.x;
+  		return node_set[d.dest].x;
   	})
 	.attr("y2", function(d) {
-  		return d.dest.y;
+  		return node_set[d.dest].y;
   	});
 }
 
@@ -186,7 +186,9 @@ function clickon(d) {
 					d.y = h/2;
 				}
 				else {
-					var pos = rand_pos(r);
+					var par = d.parent;
+					parent_pos = [node_set[par].x,node_set[par].y]
+					var pos = rand_pos(parent_pos,20,300);
 					d.x = pos[0];
 					d.y = pos[1];
 				}
@@ -247,16 +249,16 @@ function clickon(d) {
 			.attr("class","edges")
 			.append("line")
 			.attr("x1", function(d) {
-				return d.source.x;
+				return node_set[d.source].x;
 			})
 			.attr("y1", function(d) {
-				return d.source.y;
+				return node_set[d.source].y;
 			})
 			.attr("x2", function(d) {
-				return d.dest.x;
+				return node_set[d.dest].x;
 			})
 			.attr("y2", function(d) {
-				return d.dest.y;
+				return node_set[d.dest].y;
 			})
 			.attr("stroke", "green");
 
@@ -283,18 +285,41 @@ function mouseout(d) {
 }
 
 function text_sample(d) {
-	if (d.name.length > 15)
-		return d.name.slice(0,12) + "...";
+	if (d.name.length > 13)
+		return d.name.slice(0,10) + "...";
 	else
 		return d.name;
 }
 
 function get_font_size(d, mult=1) {
-	return mult*10 + "px";
+	var length = d.name.length;
+	if (d.name.length > 13)
+		length = 8;
+	return (mult*Math.min(2 * d.r, (2 * d.r - 8) / length * 2.5)) + "px";
 }
 
 
-function rand_pos(r) {
+
+function rand_pos(pos,rad,dist) {
+	var r = Math.random()*dist+2*rad;
+	var x = Math.random()*r;
+	var y = Math.sqrt(Math.abs(x*x-r*r));
+	if ((Math.random()-.5) < 0)
+		x = x*(-1);
+	if ((Math.random()-.5) < 0)
+		y = y*(-1);
+	x = pos[0]+x;
+	y = pos[1]+y;
+	return [x,y];
+}
+
+
+
+
+
+/*
+function rand_pos(r)
+{
 	var pos = []
 	g.selectAll(".nodes")
 		.each( function(d) {
@@ -319,6 +344,6 @@ function rand_pos(r) {
 		}
 	}
 	while(overlap);
-
 	return rand_pos;
 }
+*/
