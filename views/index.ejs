@@ -1,11 +1,13 @@
 <% include header %>
 	<div class="container">
+		<div class="row">
 		<form class="form" action="/network" method="get">
 			<div class="form-group">
 				<input class="form-control typeahead" placeholder="Search" name="search" id="search">
 			</div>
 			<button type="submit" class="btn btn-default">Submit</button>
 	  	</form>
+	  </div>
   </div>
 	<script>
 		var articles = <%- JSON.stringify(articles) %>;

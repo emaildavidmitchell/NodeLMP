@@ -95,7 +95,7 @@ app.post("/network", function(request,response, next) {
 
 	//find inward object relations
 	var io_query = "select distinct ?o ?p ?l where {VALUES ?t { " + types_string + " } ?s ?p ?o . ?s rdfs:label '" + request.body.search + 
-	"'@en . ?p rdf:type owl:ObjectProperty . ?o rdfs:label ?l . ?o rdf:type ?t . filter langMatches(lang(?l),'EN')} LIMIT 10";
+	"'@en . ?p rdf:type owl:ObjectProperty . ?o rdfs:label ?l . ?o rdf:type ?t . filter langMatches(lang(?l),'EN')} LIMIT 100";
 
 	client.query(io_query).execute(function(error,results) {
 		console.log("Getting inward object data");
