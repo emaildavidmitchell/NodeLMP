@@ -30,6 +30,7 @@ fs.readFile("./public/articles.txt", 'utf8', function(err,data) {
 	console.log("Article list loaded");
 });
 
+//these are the types we will search for association
 var types = {};
 var types_string = "";
 fs.readFile("./public/types.txt", 'utf8', function(err,data) {
@@ -48,12 +49,15 @@ fs.readFile("./public/types.txt", 'utf8', function(err,data) {
 //logs requests in dev form
 app.use(morgan("dev"));
 
+//reads the content of posts in the body
 app.use(bodyParser.urlencoded({ extended: false}));
 
 //serving up static files
 var publicPath = path.resolve(__dirname, "public");
 app.use(express.static(publicPath));
 
+
+//ensure the client view can access the list of articles
 app.use(function(request,response,next) {
 	response.locals.articles = articles;
 	next();
@@ -64,7 +68,7 @@ app.get("/", function(request,response) {
 });
 
 
-app.post("/network", function(request,response, next) {
+app.post("/network/expand", function(request,response, next) {
 	console.log("Searching for " + request.body.search);
 	var process = spawn('python3',['/Users/dcmitchell/Desktop/Node/LMP/public/get_article_label.py',request.body.search]);
 	
@@ -95,10 +99,9 @@ app.post("/network", function(request,response, next) {
 
 	//find inward object relations
 	var io_query = "select distinct ?o ?p ?l where {VALUES ?t { " + types_string + " } ?s ?p ?o . ?s rdfs:label '" + request.body.search + 
-	"'@en . ?p rdf:type owl:ObjectProperty . ?o rdfs:label ?l . ?o rdf:type ?t . filter langMatches(lang(?l),'EN')} LIMIT 100";
+	"'@en . ?p rdf:type owl:ObjectProperty . ?o rdfs:label ?l . ?o rdf:type ?t . filter langMatches(lang(?l),'EN')}";
 
 	client.query(io_query).execute(function(error,results) {
-		console.log("Getting inward object data");
 		response.locals.source.io_data = results.results.bindings;
 		next();
 	});
@@ -142,7 +145,7 @@ app.get("/network", function(request,response) {
 		wiki_query = wiki_query.trim();
 		request.query.search = wiki_query;
 		console.log("Found " + wiki_query);
-		response.locals.source = {label: request.query.search, source_data: {}, io_data: {}, oo_data: {}, dr_data: {}}
+		response.locals.source = {label: request.query.search, lm_article: true, source_data: {}, io_data: {}, oo_data: {}, dr_data: {}}
 		response.render("network");
 	});
 });

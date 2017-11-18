@@ -1,6 +1,7 @@
 function add_node(node_set, edge_set, node_data, expanded=false, parent) {
 
 	var node = {name: node_data.label, 
+		lm_article: node_data.lm_article,
 		expanded: expanded, 
 		type: node_data.type_data, 
 		data: node_data.dr_data, 
@@ -16,19 +17,23 @@ function add_node(node_set, edge_set, node_data, expanded=false, parent) {
 }
 
 function expand_node(node_set,edge_set,data,node_id) {
+	
+	console.log("expanding");
 	var node = node_set[node_id];
 	node.expanded = true;
 	node.type = data.type_data;
 	node.data = data.dr_data;
-
+	console.log(data.io_data);
 	data.io_data.forEach(function(entry) {
 		if (!exists(node_set,entry.l.value)) {
-			var child_node_data = {label: entry.l.value, type_data: {}, dr_data: {}};
+			var child_node_data = {label: entry.l.value, lm_article: false, type_data: {}, dr_data: {}};
 			var child_node = add_node(node_set,edge_set,child_node_data,false,node);
 			node.children.push(child_node);
 			add_edge(edge_set,node,child_node,"sex");
 		}
 	});
+	console.log(node);
+
 }
 
 function add_edge(edge_set,parent_node,child_node,rel) {

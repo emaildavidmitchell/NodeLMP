@@ -1,20 +1,12 @@
 
-/*
-var svg = d3.select("#graph").append("svg").style("width","100%").style("height","100%"),
+var svg = d3.select("#graph"),
 	w = parseInt(svg.style("width")),
 	h = parseInt(svg.style("height")),
-	r = 5,
+	r = 15,
 	transform = d3.zoomIdentity,
 	e = svg.append("g"),
 	g = svg.append("g");
-*/
-var svg = d3.select("svg"),
-	w = parseInt(svg.style("width")),
-	h = parseInt(svg.style("height")),
-	r = 5,
-	transform = d3.zoomIdentity,
-	e = svg.append("g"),
-	g = svg.append("g");
+
 
 d3.selection.prototype.moveToFront = function() {
   return this.each(function(){
@@ -31,10 +23,10 @@ svg.on("dblclick.zoom", null);
 
 update();
 
-function clickon(d) {
+function dblclickon(d) {
 	
 	if (!d.expanded) {
-		$.post("/network", {search: d.name}, function (data,status) {
+		$.post("/network/expand", {search: d.name}, function (data,status) {
 			expand_node(node_set,edge_set,data,d.id);
 			update();
 		});
@@ -76,7 +68,7 @@ function update() {
 				.on("end", dragended))
 			.on("mouseover", mouseover)
 			.on("mouseout", mouseout)
-			.on("dblclick", clickon)
+			.on("dblclick", dblclickon)
 
 		enter.append("circle")
 			.attr("cx", function(d,i) {
@@ -158,9 +150,6 @@ function dragged(d) {
   	drag_children(d,d3.event);
   });
 
-
-  console.log(d3.select(this));
-
   e.selectAll(".edges")
   	.select("line")
   	.attr("x1", function(d) {
@@ -219,8 +208,8 @@ function mouseout(d) {
 }
 
 function text_sample(d) {
-	if (d.name.length > 15)
-		return d.name.slice(0,12) + "...";
+	if (d.name.length > 20)
+		return d.name.slice(0,20) + "...";
 	else
 		return d.name;
 }
