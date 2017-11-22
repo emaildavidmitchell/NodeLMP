@@ -1,17 +1,23 @@
-function add_node(node_set, edge_set, node_data, expanded=false, parent) {
+function add_node(node_set, edge_set, node_data, expanded=false, visibility="visible", parent={}) {
 
 	var node = {name: node_data.label, 
-		lm_article: node_data.lm_article,
 		expanded: expanded, 
-		type: node_data.type_data, 
-		data: node_data.dr_data, 
+		type: node_data.type, 
 		children: [], 
 		parent: parent, 
-		visibility: "visible", 
+		visibility: visibility, 
 		x: 0, y: 0, r: 0, 
 		id: node_set.length};
 
 	node_set.push(node);
+
+
+	for (var i = 0; i < node_data.links_in.length; i++) {
+		var child_data = {label: node_data.links_in[i].l.value, uri: "",  links_in: [], links_out: [], type: []}
+		var child_node = add_node(node_set,edge_set,child_data,false,"hidden",node);
+		node.children.push(child_node);
+		add_edge(edge_set,node,child_node,"sex");
+	}
 
 	return node;
 }

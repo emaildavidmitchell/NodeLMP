@@ -30,22 +30,6 @@ fs.readFile("./public/articles.txt", 'utf8', function(err,data) {
 	console.log("Article list loaded");
 });
 
-//these are the types we will search for association
-var types = {};
-var types_string = "";
-fs.readFile("./public/types.txt", 'utf8', function(err,data) {
-	if (err) {
-		return console.log(err);
-	}
-	types = data.split("\n");
-	types.forEach(function(type) {
-		types_string += type;
-	});
-
-	console.log("Type list loaded");
-});
-
-
 //logs requests in dev form
 app.use(morgan("dev"));
 
@@ -131,7 +115,7 @@ app.post("/network/expand", function(request,response, next) {
 	});
 });
 
-app.get("/network", function(request,response) {
+app.get("/network", function(request,response,next) {
 	
 	console.log("Searching for " + request.query.search);
 	var process = spawn('python3',['/Users/dcmitchell/Desktop/Node/LMP/public/get_article_label.py',request.query.search]);
@@ -145,10 +129,14 @@ app.get("/network", function(request,response) {
 		wiki_query = wiki_query.trim();
 		request.query.search = wiki_query;
 		console.log("Found " + wiki_query);
-		response.locals.source = {label: request.query.search, lm_article: true, source_data: {}, io_data: {}, oo_data: {}, dr_data: {}}
-		response.render("network");
+		node_data_promises(wiki_query).then(values => {
+			var node_data = {label: wiki_query, uri: values[0], links_in: filter_links(values[1]), links_out:filter_links(values[2]), type: values[3]}
+			response.locals.node_data = node_data;
+			response.render("network");
+		});
 	});
 });
+
 
 app.get("/examples", function(request,response) {
 	response.render("examples");
@@ -169,3 +157,55 @@ app.get("/about", function(request,response) {
 http.createServer(app).listen(3000, function () {
 	console.log("LMP app started on port 3000");
 });
+
+
+
+function node_data_promises(label,response) {
+
+	var source_query = "select distinct ?s where {?s rdfs:label '" + label + "'@en filter regex(?s, 'dbpedia') } LIMIT 1";
+
+	var io_query = "select distinct ?o ?p ?l where { ?s ?p ?o . ?s rdfs:label '" + label + 
+		"'@en . ?p rdf:type owl:ObjectProperty . ?o rdfs:label ?l . filter langMatches(lang(?l),'EN')}";
+
+	var oo_query = "select distinct ?o ?p ?l where { ?s ?p ?o . ?o rdfs:label '" + label + 
+		"'@en . ?p rdf:type owl:ObjectProperty . ?s rdfs:label ?l . filter langMatches(lang(?l),'EN')}";
+
+	var type_query = "select distinct ?t where {?s rdfs:label '" + label + "'@en . ?s rdf:type ?t } LIMIT 100";
+
+	var promises = [build_promise(label,source_query),build_promise(label, io_query),build_promise(label,oo_query),build_promise(label, type_query)];
+
+	return Promise.all(promises);
+
+}
+
+
+function build_promise(label,query) {
+
+	var p = new Promise(function(res,rej) {
+
+		client.query(query).execute(function(error, results) {
+			if (error) 
+				rej(Error("Bad query"));
+			else {
+				 res(results.results.bindings);
+			}
+		});
+	});
+
+	return p;
+}
+
+
+function filter_links(links) {
+
+	var filtered_links = [];
+
+	for (var i = 0; i < links.length; i++) {
+		if (articles.indexOf(links[i].l.value) != -1)
+			filtered_links.push(links[i]);
+	}
+
+	return filtered_links;
+
+}
+

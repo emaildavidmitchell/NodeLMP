@@ -11,11 +11,10 @@
 				<script src="https://d3js.org/d3.v4.min.js"></script>
 				<script src="network_script.js"></script>
 				<script>
-					var source_data = <%- JSON.stringify(source) %>;
+					var node_data = <%- JSON.stringify(node_data) %>;
 					var node_set = [];
 					var edge_set = [];
-					var label = source_data.label.replace(' ','_');
-					add_node(node_set, edge_set, source_data, false);
+					add_node(node_set, edge_set, node_data, false, 0);
 				</script>
 				<script type="text/javascript" src="d3Graph.js"></script>
 
