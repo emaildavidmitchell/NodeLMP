@@ -12,6 +12,7 @@
 				<script src="network_script.js"></script>
 				<script>
 					var node_data = <%- JSON.stringify(node_data) %>;
+					console.log(node_data);
 					var node_set = [];
 					var edge_set = [];
 					add_node(node_set, edge_set, node_data, false, 0);
