@@ -2,7 +2,7 @@
 var svg = d3.select("#graph"),
 	w = parseInt(svg.style("width")),
 	h = parseInt(svg.style("height")),
-	r = 15,
+	r = 5,
 	transform = d3.zoomIdentity,
 	e = svg.append("g"),
 	g = svg.append("g");
@@ -17,7 +17,7 @@ d3.selection.prototype.moveToFront = function() {
 svg.call(d3.zoom()
     .scaleExtent([1 / 2, 8])
     .on("zoom", zoomed));
-	
+
 svg.on("dblclick.zoom", null);
 
 
@@ -26,17 +26,16 @@ update();
 function dblclickon(d) {
 	
 	if (!d.expanded) {
-		$.post("/network/expand", {search: d.name}, function (data,status) {
-			expand_node(node_set,edge_set,data,d.id);
-			update();
-		});
-	}
+        expand_node(node_set, edge_set, d.id, update);
+    }
 	else {
+		d.extended = !d.extended;
 		d.children.forEach( function (n) {
-			if (n.visibility == "hidden")
+			if (n.visibility === "hidden")
 				n.visibility = "visible";
 			else
-				n.visibility = "hidden";
+				if (n.children.length == 0)
+					n.visibility = "hidden";
 		});
 		update_visibility();
 	}
@@ -147,7 +146,8 @@ function dragged(d) {
   d3.select(this).selectAll("circle").attr("cx",d.x).attr("cy", d.y);
   d3.select(this).selectAll("text").attr("x", d.x).attr("y", d.y);
   d3.select(this).attr("", function(d) {
-  	drag_children(d,d3.event);
+  	if (d.extended)
+  		drag_children(d,d3.event);
   });
 
   e.selectAll(".edges")
@@ -283,7 +283,7 @@ function update_visibility() {
 
 function drag_children(d,event) {
 	d.children.forEach( function(node) {
-		if (node.expanded == false) {
+		if (node.expanded === false) {
 			node.x += event.dx;
 			node.y += event.dy;
 		}

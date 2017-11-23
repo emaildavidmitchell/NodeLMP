@@ -40,6 +40,12 @@ app.use(bodyParser.urlencoded({ extended: false}));
 var publicPath = path.resolve(__dirname, "public");
 app.use(express.static(publicPath));
 
+//this is bad, but doing it for now
+process.on('uncaughtException', function (err) {
+    console.log(err);
+});
+
+
 
 //ensure the client view can access the list of articles
 app.use(function(request,response,next) {
@@ -51,69 +57,14 @@ app.get("/", function(request,response) {
 	response.render("index");
 });
 
-
-app.post("/network/expand", function(request,response, next) {
-	console.log("Searching for " + request.body.search);
-	var process = spawn('python3',['/Users/dcmitchell/Desktop/Node/LMP/public/get_article_label.py',request.body.search]);
-	
-	var wiki_query = "";
-	process.stdout.on('data',function(data) {
-		wiki_query += data;
-	});
-
-	process.stdout.on('end', function() {
-		wiki_query = wiki_query.trim();
-		request.body.search = wiki_query;
-		console.log("Found " + wiki_query);
-		response.locals.source = {label: request.query.search, source_data: '', io_data: '', oo_data: '', dr_data: ''}
-		next();
-	});
-}, function (request, response, next) {
-
-	//find source information
-	var source_query = "select distinct ?s where {?s rdfs:label '" + request.body.search + "'@en filter regex(?s, 'dbpedia') } LIMIT 1";
-
-	client.query(source_query).execute(function(error, results) {
-		console.log("Getting source data");
-		response.locals.source.source_data = results.results.bindings;
-		next();
-	});
-
-}, function(request, response, next) {
-
-	//find inward object relations
-	var io_query = "select distinct ?o ?p ?l where {VALUES ?t { " + types_string + " } ?s ?p ?o . ?s rdfs:label '" + request.body.search + 
-	"'@en . ?p rdf:type owl:ObjectProperty . ?o rdfs:label ?l . ?o rdf:type ?t . filter langMatches(lang(?l),'EN')}";
-
-	client.query(io_query).execute(function(error,results) {
-		response.locals.source.io_data = results.results.bindings;
-		next();
-	});
-
-}, function(request, response, next) {
-
-	//find data relations
-	var dr_query = "select distinct ?p ?o where {?s ?p ?o . ?s rdfs:label '" + request.body.search + 
-	"'@en . ?p rdf:type owl:DatatypeProperty} LIMIT 100"
-
-	
-	client.query(dr_query).execute(function(error,results) {
-		console.log("Getting datatype data");		
-		response.locals.source.dr_data = results.results.bindings;
-		next();
-	});
-
-}, function(request, response) {
-
-	//find the type information
-	var type_query = "select distinct ?t where {?s rdfs:label '" + request.body.search + "'@en . ?s rdf:type ?t } LIMIT 50";
-
-	client.query(type_query).execute(function(error,results) {
-		console.log("Getting type data");
-		response.locals.source.type_data = results.results.bindings;
-		response.send(response.locals.source);
+app.post("/network/expand", function(request,response) {
+	console.log("Search for " + request.body.search);
+	node_data_promises(request.body.search).then(values => {
+		response.locals.node_data = create_node_data(request.body.search, values);
+		response.send(response.locals.node_data);
 	});
 });
+
 
 app.get("/network", function(request,response,next) {
 	
@@ -130,8 +81,7 @@ app.get("/network", function(request,response,next) {
 		request.query.search = wiki_query;
 		console.log("Found " + wiki_query);
 		node_data_promises(wiki_query).then(values => {
-			var node_data = {label: wiki_query, uri: values[0], links_in: filter_links(values[1]), links_out:filter_links(values[2]), type: values[3]}
-			response.locals.node_data = node_data;
+			response.locals.node_data = create_node_data(wiki_query,values);
 			response.render("network");
 		});
 	});
@@ -162,6 +112,8 @@ http.createServer(app).listen(3000, function () {
 
 function node_data_promises(label,response) {
 
+	label = escape_punc(label);
+
 	var source_query = "select distinct ?s where {?s rdfs:label '" + label + "'@en filter regex(?s, 'dbpedia') } LIMIT 1";
 
 	var io_query = "select distinct ?o ?p ?l where { ?s ?p ?o . ?s rdfs:label '" + label + 
@@ -175,6 +127,12 @@ function node_data_promises(label,response) {
 	var promises = [build_promise(label,source_query),build_promise(label, io_query),build_promise(label,oo_query),build_promise(label, type_query)];
 
 	return Promise.all(promises);
+
+}
+
+function escape_punc(str_value) {
+
+	return str_value.replace("\'","\\'");
 
 }
 
@@ -195,17 +153,20 @@ function build_promise(label,query) {
 	return p;
 }
 
-
 function filter_links(links) {
 
 	var filtered_links = [];
 
 	for (var i = 0; i < links.length; i++) {
-		if (articles.indexOf(links[i].l.value) != -1)
+		if (articles.indexOf(links[i].l.value) !== -1)
 			filtered_links.push(links[i]);
 	}
 
 	return filtered_links;
+}
 
+function create_node_data(name,values) {
+
+    return {label: name, uri: values[0], links_in: filter_links(values[1]), links_out:filter_links(values[2]), type: values[3]}
 }
 
