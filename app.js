@@ -120,7 +120,7 @@ function node_data_promises(label,response) {
 		"'@en . ?p rdf:type owl:ObjectProperty . ?o rdfs:label ?l . filter langMatches(lang(?l),'EN')}";
 
 	var oo_query = "select distinct ?o ?p ?l where { ?s ?p ?o . ?o rdfs:label '" + label + 
-		"'@en . ?p rdf:type owl:ObjectProperty . ?s rdfs:label ?l . filter langMatches(lang(?l),'EN')}";
+		"'@en . ?p rdf:type owl:ObjectProperty . ?s rdfs:label ?l . filter (langMatches(lang(?l),'EN') && !regex(?p, 'wiki','i') )}";
 
 	var type_query = "select distinct ?t where {?s rdfs:label '" + label + "'@en . ?s rdf:type ?t } LIMIT 100";
 

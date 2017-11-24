@@ -34,7 +34,7 @@ function dblclickon(d) {
 			if (n.visibility === "hidden")
 				n.visibility = "visible";
 			else
-				if (n.children.length == 0)
+				if (n.children.length === 0)
 					n.visibility = "hidden";
 		});
 		update_visibility();
@@ -99,6 +99,7 @@ function update() {
 			.style("font-family", "sans-serif")
 			.style("font-weight","bold");
 
+
 		node_update.merge(enter);
 
 		var edge_update = e.selectAll("g")
@@ -122,7 +123,12 @@ function update() {
 			.attr("y2", function(d) {
 				return d.dest.y;
 			})
-			.attr("stroke", "green");
+			.attr("stroke", "green")
+            .attr("stroke-width", "7")
+			.append("title")
+			.text(function (d) {
+				return d.relation;
+			});
 
 		edge_update.merge(enter);
 		update_visibility();
@@ -165,6 +171,9 @@ function dragged(d) {
 	.attr("y2", function(d) {
   		return d.dest.y;
   	});
+
+    $("#tooltip").css({left: d.x+100, top: d.y-50});
+
 }
 
 function dragended(d) {
@@ -172,12 +181,13 @@ function dragended(d) {
 }
 
 function mouseover(d) {
-	
+
+
 	d3.select(this).moveToFront();
 
 	d3.select(this)
 		.selectAll("circle")
-		.attr("r",d.r*4)
+		.attr("r",d.r*4);
 	
 	d3.select(this)
 		.selectAll("text")
@@ -187,12 +197,17 @@ function mouseover(d) {
 		.style("font-size", function(d) {
 			return get_font_size(d,3);
 		});
+
+	$("#tooltip").css({left: d.x+100, top: d.y-50, visibility: "visible"})
+		.text(d.name + " description");
+
+	$("#media-bar").css({visibility: "visible"});
 }
 
 
 function mouseout(d) {
-	
-	d3.select(this)
+
+    d3.select(this)
 		.selectAll("circle")
 		.attr("r",d.r);
 
@@ -204,6 +219,12 @@ function mouseout(d) {
 		.style("font-size", function(d) {
 			return get_font_size(d);
 		});
+
+    $("#tooltip").css({visibility: "hidden"});
+
+    $("#media-bar").css({visibility: "hidden"});
+
+
 
 }
 
@@ -274,7 +295,7 @@ function update_visibility() {
 
 	e.selectAll("g")
 		.style("visibility", function (d) {
-			if ((d.source.visibility == "hidden") || (d.dest.visibility == "hidden"))
+			if ((d.source.visibility === "hidden") || (d.dest.visibility === "hidden"))
 				return "hidden";
 			else
 				return "visible";
@@ -302,7 +323,5 @@ function update_position() {
 		.attr("x2", function(d) {return d.dest.x;})
 		.attr("y2", function(d) {return d.dest.y;});
 }
-
-
 
 

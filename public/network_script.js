@@ -17,24 +17,31 @@ function add_node(node_set, edge_set, node_data, visibility="visible", parent={}
 
 function expand_node(node_set,edge_set,node_id,update) {
 
+	var queued = [];
 	var node = node_set[node_id];
 	node.expanded = true;
 	node.extended = true;
 	for (var i = 0; i < node.links.length; i++) {
-		if (exists(node_set,node.links[i].l.value)) {
-			console.log("exists");
-			var child_node = ret_node(node_set,node.links[i].l.value);
-			console.log(child_node);
-			add_edge(edge_set,node,child_node,"sex");
-			update();
-            continue;
-        }
-        $.post("/network/expand", {search: node.links[i].l.value}, function (child_data,status) {
-            var child_node = add_node(node_set,edge_set,child_data,"visible", node);
-        	node.children.push(child_node);
-            add_edge(edge_set, node, child_node, "sex");
-            update();
-        });
+		var name = node.links[i].l.value;
+		var rel = node.links[i].p.value;
+		if (queued.indexOf(name) === -1) {
+			queued.push(name);
+			if (exists(node_set,name)) {
+				console.log("exists");
+				var child_node = ret_node(node_set,name);
+				console.log(child_node);
+				add_edge(edge_set,node,child_node,rel);
+				update();
+			}
+			else {
+				$.post("/network/expand", {search: name}, function (child_data,status) {
+					var child_node = add_node(node_set,edge_set,child_data,"visible", node);
+					node.children.push(child_node);
+					add_edge(edge_set, node, child_node, rel);
+					update();
+				});
+			}
+		}
     }
 }
 
