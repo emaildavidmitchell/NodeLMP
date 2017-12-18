@@ -1,0 +1,63 @@
+
+
+Musique Concrète (concrete music) is a music genre that developed from the technology of radio broadcasting. The inventor of Musique Concrète, the Frenchman Pierre Schaeffer (1910-1995), realized the significance of hearing sounds over the radio where any visual reference to a source is removed. This is known as the acousmatic situation. Standard radio dramas contain dialogue, sound effects and music which support the unfolding of the narrative; these are usually sounds that are recognized by listeners without difficulty.
+
+Musique Concrète (concrete music) is a music genre that developed from the technology of radio broadcasting. The inventor of Musique Concrète, the Frenchman Pierre Schaeffer (1910-1995), realized the significance of hearing sounds over the radio where any visual reference to a source is removed. This is known as the acousmatic situation. Standard radio dramas contain dialogue, sound effects and music which support the unfolding of the narrative; these are usually sounds that are recognized by listeners without difficulty. However, Schaeffer also concluded that when the acousmatic situation is applied to recorded sounds in general, clear reference to source or causality is suppressed and sounds are heard as sound objects. This is particularly evident if the sounds are ambiguous or difficult to verify. Rather than seeking to identify a source or agency, the listener is encouraged to scrutinize all of the sound’s constituent characteristics such as pitch, vibrato and texture. These recorded sounds can be used as material in compositions which themselves exist solely as recordings. Musical meaning results from perceived relationships between the characteristics selected by the composer. The recorded sound objects are usually transformed and de-contextualized further by studio techniques such as reversal, editing, filtering, acceleration and deceleration.
+
+
+
+Musique Concrète
+
+The term Musique Concrète was invented by the French polymath Pierre Schaeffer. In 1948 he wrote:
+
+
+
+I have coined the term Musique Concrète for this commitment to compose with materials taken from ‘given’ experimental sound, in order to emphasize our dependence, no longer on preconceived sound abstractions, but on sound fragments which exist in reality, and which are considered as discrete and complete sound objects, even if and above all when they do not fit in with the elementary definitions of music theory. (Schaeffer, 1952: 22)
+
+
+
+The ‘given’ sounds referred to in this quotation are recordings from any source such as metal sheets, bells, bicycle horns, bird-calls as well as musical instruments, the natural or urban environments, sounds of human action and electronic sounds. Sounds were originally recorded on flexible shellac discs, later magnetic tape became the preferred medium. Some sounds were left unmodified, though mere de-contextualisation was not always sufficient to remove unequivocal reference to a source. Consequently, transformation by various studio techniques such as acceleration, deceleration, reversal, editing and filtering was frequently employed. The sounds were then assembled in compositions by processes of montage and mixing. Contemporary musicians who wish to appropriate the ethos of Musique Concrète can employ digital recording techniques thereby demonstrating that despite the shift from analogue to digital, Schaeffer’s basic precept of working directly with sound material is still relevant. 
+
+
+
+The Term Musique Concrète
+
+The words ‘musique’ and ‘concrète’ were carefully chosen by Schaeffer who believed his project expanded the repertory of traditional musical material. Moreover, his methods of scrutinizing and experimenting directly with recorded sounds reversed established methods of composition. Composition using notation illustrates traditional musical practices: the written symbols represent values of pitch and duration which are written on a score and performed by musicians. Additional symbols and words are employed for dynamic levels, accents and instrumentation. By contrast, Schaeffer asserted that sounds consist of many characteristics that resist representation by notation. These characteristics can nevertheless be perceived and might be promoted to more prominent roles in articulating structure and creating musical meaning. By working with notation as the first step in composing music, such characteristics are mostly ignored, albeit inadvertently, and are relegated to secondary attributes of sounds. Schaeffer did not repudiate abstraction, therefore, but he believed new musical values should emerge from working experimentally with sounds themselves. Moreover, in some musical communities the term concrète has regrettably become synonymous with ‘real-world’, leading to the mistaken assumption that musique concrète involves the use of sounds retaining strong anecdotal links to their sources. In fact, concrète has distinct philosophical implications. Schaeffer proposed that a recorded sound object should be evaluated by examining each of its perceptible constituent components the totality of which constitute the sound’s ‘concrete’ substance. Any recorded sound could be subjected to this process of discovery by repeated, concentrated listening (called reduced listening) and new musical values such as vibrato, texture or spectral evolution might be abstracted to become the principal features of new musical languages.
+
+
+
+The process of abstracting concrete qualities is not immediately obvious in Schaeffer’s earliest compositions which often consisted of easily identifiable sounds. The techniques of his new concrete approach to composition were still rudimentary and, as a result, many sounds were left untransformed. Schaeffer’s first Musique Concrète composition, the Etude aux chemins de fer (1948) exemplifies this abstract/concrete problematic. Schaeffer chose railway sounds because, like many sounds from physical sources, they were rich and complex in dynamic behaviour and spectral evolution and thus contained many potential values. Nevertheless, the sounds often revealed clear references to their origins such as whistles, steam engines and carriages moving along the track. Schaeffer did not intend the listener to perceive a quasi-dramatic collage even though he acknowledged the poetic nature of such works. Recognizable sounds can have their own intrinsic beauty as well as creating networks of socially constructed meanings. This type of language was exploited by Pierre Henry (an early collaborator of Schaeffer’s). However, Schaeffer’s aim was abstracting new values from recorded sounds and creating directional structures rather than anecdotal reference. One passage in this Etude is referred to by Schaeffer: ‘I’ve managed to isolate a rhythm and contrast it with itself in a different sound colour. Dark, light, dark, light. (…) This makes it create a sort of identity for itself and repeating it makes you forget it’s a train.’ (Schaeffer, 1952: 21). Consequently, by juxtaposing sound objects different spectral qualities were revealed. This characteristic was then abstracted by the listener to create a new musical value and form a spectral ‘melody’ appreciated as a musical structure in itself. A search for causal origins was, therefore, unnecessary.
+
+
+
+Musique Concrète’s Legacy
+
+In 1958 Schaeffer eventually abandoned the term Musique Concrète in favour of the more general musique expérimentale. Nevertheless, the concrete attitude prevails amongst many electroacoustic musicians today who continue the Schaefferian method of recording sounds and ‘playing’ with them in the studio to discover their potential by experiment and perceptual verification . Modern exponents are François Bayle, Denis Smalley, Francis Dhomont, Bernard Parmegiani, and Jonty Harrison. Each of these composers have elaborated Schaeffer’s theories in their own personal compositional practices as have musicians who ‘play’ turntables or who sample sounds. Thus, Musique Concrète continues to exert and influence contemporary electroacoustic music languages.
+
+
+
+List of Works
+
+Schaeffer, P. (1948) Cinq études de bruits Pierre Schaeffer - l’œuvre musicale (2010) ina editions 6027 (These five studies are the earliest musique concrète compositions. The first étude is the Etude aux chemins de fer)
+
+Schaeffer, P. & Henry, P. (1950) Symphonie pour un homme seul Pierre Schaeffer - l’œuvre musicale (2010) ina editions 6028 (The Symphonie was an early collaboration with Pierre Henry)
+
+Schaeffer, P. (1958) Etude aux allures Pierre Schaeffer - l’œuvre musicale (2010) ina editions 6029 (This etude promotes allure, which is a generalized vibrato, to the level of a musical value) 
+
+Schaeffer, P. (1959) Etude aux objets Pierre Schaeffer - l’œuvre musicale (2010) ina editions 6027 (there are five movements to this etude. The sounds object are limited in number and are developed in the manner of variations)
+
+Henry, P. (1950-1952) Microphone bien tempéré Pierre Henry - les années cinquante Philips 472204-2 (Henry developed his own unique musical language. Nevertheless, this early work in seven movements can be considered typical of MUSIQUE CONCRÈTE)
+
+Further reading:
+
+(Chion)
+
+(Schaeffer)
+
+(Schaeffer, In Search of a Concrete Music)
+
+(Schaeffer, La musique concrete)
+
+(Schaeffer, Traite des objets musicauz)
+
+(Schaeffer and Reibel, Solfege de l'objet sonore)

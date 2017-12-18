@@ -1,0 +1,123 @@
+
+
+Defining live electronic music is a problematic and increasingly difficult critical task (Emmerson 89-90; see also Collins 38-54; Radford 158-66). Attempts at pinning down the term are marked by the ‘plurality and hazy definitions’ generally encountered in the analysis of electronic music (Peters 3). The term and the musical concepts it entails are moving targets: new developments in technology and organology continue to redefine the genre. For the purposes of this article, live electronic music is performance in which the electronic element influences or is influenced by the performers in some interactive way. This definition is informed by the notion that live electronic music can best be understood as a performance strategy rather than a compositional technique.
+
+
+
+Defining live electronic music is a problematic and increasingly difficult critical task (Emmerson 89-90; see also Collins 38-54; Radford 158-66). Attempts at pinning down the term are marked by the ‘plurality and hazy definitions’ generally encountered in the analysis of electronic music (Peters 3). The term and the musical concepts it entails are moving targets: new developments in technology and organology continue to redefine the genre. For the purposes of this article, live electronic music is performance in which the electronic element influences or is influenced by the performers in some interactive way. This definition is informed by the notion that live electronic music can best be understood as a performance strategy rather than a compositional technique.
+
+
+
+Live electronic music has been part of the nomenclature of Western art music since the middle of the twentieth century. Bruno Maderna’s Musica su due dimensioni for flute, cymbal, and tape (1952) is often cited as the first work of live electronic music (Deliège 153), and it exemplifies the dichotomy inherent in the term: live (re: human) electronic (re: machine) music. As Nick Collins, Margaret Schedle and Scott Wilson articulate, ‘the drive to take such music [electronic] live has been ever present’ (188) throughout the history of electronic music: the Telharmonium (patented in 1897), the Theremin (created in 1920) and the Ondes Martenot (created in 1928) are prime examples, as are the Hammond organ and the electric guitar, developed during the 1930s and 1940s respectively. Early examples of live compositions employing various types of electronic technology include Stefan Wolpe’s purported presentation at a Dada concert in Berlin in 1920 where eight phonographs simultaneously performed fragments of a Beethoven Symphony at different speeds, and John Cage’s Imaginary Landscapes no. 1 for piano (1939), which featured a large Chinese cymbal and two turntables equipped with recordings of test tones.
+
+
+
+Live electronic music is widely considered to have developed in the 1960s with the emergence of compositions ‘largely based on live synthesis’ (Manning 157; see also Sanden 87-91). Composers began looking for ways to increase real-time interactivity on stage between the performer(s) and new technology. Mauricio Kagel’s Transición II (1959) is believed to be the first work in which sounds at the beginning of the recording were then looped and repeated later in the performance. Others, notably Karlheinz Stockhausen, experimented with new ways of generating and manipulating sounds produced during the course of a performance, notably in his compositions Mixtur (1964), and Mikrophonie I (1964) and II (1965). The explosive sense of innovation and experimentation during the 1960s took place at newly formed centres — The San Francisco Tape Music Centre (later the Mills College Tape Music Centre, renamed upon its move to Oakland in 1966), founded in 1961 by Morton Subotnik, Ramon Sender and Pauline Oliveros, for example. The Centre cultivated an ‘atmosphere of homespun improvisation’ (Brend 145), in which composers and performers collaborated with technicians and inventors. As John Rockwell articulates, the Centre embraced ambiguity: ‘[the] dividing lines between performance and unsullied electronic music were always vague and productively so’ (Rockwell ix). 
+
+
+
+Fed by rapidly developing technology, electronic musical experimentation continued to flourish, often cultivated by loosely-formed groups of like-minded individuals. A representative example is the English group Gentle Fire (1968-75), which explored the potential of new electronic media using a heterogeneous mix of traditional and newly invented instruments: pianos, recorders, cellos, percussion instruments, Oriental mouth organs, electric guitars, and synthesisers, among others. With their penchant for collective composition and their focus on performance outcomes, the group blurred the line between progressive rock and the avant-garde (Davies 55-56). Other collectives included the AMM (founded in London in 1965), Musica Elettronica Viva (founded 1966 in Rome), the Sonic Arts Union (inaugurated at Brandeis University in 1966) and the Ensemble d’Instruments Électronique de l’Itinéraire (a subset of the spectralist project founded in the early 1970s).
+
+
+
+Image: EIEI.jpg
+
+Figure 1 The Ensemble d’Instruments Électronique de l’Itinéraire in 1978
+
+http://lesguitaresjacobacci.free.fr/EIEI/page00.htm 
+
+
+
+The arrival of the desktop computer greatly enhanced the development of real-time sound synthesis embedded in performance, and coincided with the establishment of large, well-endowed research institutions. The most famous is the Institut de recherche et coordination acoustique/musique (IRCAM) founded in Paris in 1977 by Pierre Boulez, where he composed Répons (1981-85). Much of Luigi Nono’s late work (1980-90) undertaken at the Heinrich-Strobel-Stiftung (Freiburg) with a dedicated group of performers and technicians involved various explorations of new performance possibilities afforded by the technological shift from analogue to digital. Works such as Prometeo, tragedia dell’ascolto (1984-85) are marked by the emergence of performances that transgress traditional relationships of time and place (Ungeheuer 1369-70). In other words, neither the ear nor the eye is capable of distinguishing the initial sound produced by an acoustic instrument or voice from its subsequent electronic modification, creating a new deconstructed performance environment. 
+
+
+
+Finally, the end of the twentieth century bore witness to the emergence of sound installations and interactive environments where software programs drove performance by reacting to the acoustic properties of the performance space — a genre of interactive computer music, according to some critics, bordering upon the realm of sonic arts as opposed to music (Demers 69-89). In such cases, the traditional performer is often missing, but not necessarily the human/machine relationship. Audience members, through their presence and movement in the space, often contribute to sound outcomes and can thus be seen as participating in the performance. 
+
+
+
+The International Computer Music Association (ICMA) currently recognises the following categories as live electronic music: solo instruments accompanied by electronics; ensemble (a group of two to ten musicians) with electronics; laptop (with controllers) improvisation; live coding; new interfaces for musical expression; inter-media performance; and networked performance and club electro (that is, jazz, pop, DJ, or intelligent dance music influenced electronic music). Compositions for performer(s) and tape — a mainstay of the genre during the 1950s and 1960s — however, go entirely unmentioned. Thus, rather than a linear progression of live electronic music, there is instead an expanding horizon of possibilities based on archaeological layers of former practices that continue to resonate in today’s ‘up-graded’ technological environment. 
+
+
+
+But what does live performance mean in these new circumstances? The term first emerged in English during the 1930s to distinguish between live and recorded performances broadcast by the British Broadcasting Corporation (BBC). Developments in computing power have produced systems capable of real-time interaction and response, but by themselves do not solve the problem of liveness. The late 1990s and early 2000s saw a sudden explosion in the use of laptop computers on stage. While this music is certainly produced in real time, in the sense that a performer is triggering actions and responding to them in the moment, the opaque nature of this practice from the perspective of an audience is problematic. Christopher Haworth has observed a new aesthetic of ‘secrecy, alchemy and semblance’ in computer music, expressed both in the arcane unknowingness surrounding what it is that the performer is perceived to be doing, and the banal possibility that the performance could be far less than it seems (Haworth 41-42). From this perspective, the development of live coding or the rise in new digital interfaces for gestural control of sound synthesis can be seen as different responses to the same aesthetic problem: how to bring authentic musical performance into computer music. 
+
+
+
+Questions also arise with regard to just what is being delivered through these performances: how do notions of composition, performance and improvisation pertain to this music? What is the relationship between the composer, the technicians and assistants, and the performers — both during and after the creative process? How do they interact and how should we understand and evaluate their contributions? Are these outcomes related to the traditional nineteenth-century strong work concept, or should they be understood as either an open-ended series of concert performances based on a loose but coherent aesthetic frameworks or as a form of musical experimentation (Dahlhaus 84-89)? These are just some of the questions bearing witness to a vibrant musical scene that will continue to generate problems and issues going forward. 
+
+Further reading:
+
+(Auslaner)
+
+
+
+(Brend)
+
+
+
+ (Collins, Schedel and Wilson)
+
+
+
+(N. Collins)
+
+
+
+(Dahlhaus)
+
+
+
+(Davies)
+
+
+
+(Deliège)
+
+
+
+(Demers)
+
+
+
+(Emmerson)
+
+
+
+(Haworth)
+
+
+
+(Laurendeau)
+
+
+
+(Manning)
+
+
+
+(Mumma)
+
+
+
+(Peters)
+
+
+
+(Radford)
+
+
+
+(Rockwell)
+
+
+
+(Sanden)
+
+
+
+(Ungeheuer)
+
+
+
+(Wolpe)

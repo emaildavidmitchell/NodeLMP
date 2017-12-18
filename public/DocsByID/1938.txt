@@ -1,0 +1,109 @@
+James Tenney
+
+												Robert Hasegawa
+
+												
+
+												American composer James Tenney (1934-2006) produced a wide range of innovative works, including computer music, Fluxus-inspired text scores, and chance-based instrumental pieces based on the overtone series. Tenney’s music is characterized by a fascination with sound and how listeners perceive it: in addition to his creative work, Tenney is the author of important theoretical writings on the psychology and phenomenology of musical experience. Like John Cage, Tenney intentionally avoids rhetorical gestures in his music, following his dictum that “The focus should be on the sound itself and not on the ideas and emotions of the composer” (Tenney 2005).
+
+												
+
+												Tenney was born in Silver City, New Mexico, but moved to New York in the 1950s to study piano with Eduard Steuermann and composition with Chou-Wen Chung. Later studies at Bennington College and the University of Illinois brought him into contact with Carl Ruggles, Lionel Nowak, Kenneth Gaburo, and Lejaren Hiller. In works from this period like Seeds (1956-61), composer Larry Polansky identifies the strong influence of Anton Webern and Edgard Varèse, two of Tenney’s early inspirations.
+
+												
+
+												As a researcher at Bell Laboratories (1961-65), Tenney realized pioneering early studies in computer-generated music and produced stochastic scores using controlled random processes. He also worked with more established techniques of tape splicing and manipulation, resulting in works like Collage #1 ("Blue Suede") (1961), built entirely out of excerpts from the music of Elvis Presley. Throughout the 1960s, Tenney was active as a pianist and conductor in New York, and co-founded the Tone Roads Ensemble, which programmed the rarely heard music of American modernists like Charles Ives, Henry Cowell, Varèse, and Ruggles. Tenney’s relationship with feminist artist Carolee Schneemann resulted in a number of collaborations; during this time, his circle also included other avant-garde artists such as George Brecht, Charlotte Moorman, Nam June Paik, and Stan Brakhage.
+
+												
+
+												Tenney’s interest in John Cage and the Fluxus movement is apparent in his ten Postal Pieces (1965-71), short verbal or graphic scores printed on postcards. An example is Having Never Written a Note for Percussion (Postal Piece #10), which consists of a single, tremolo whole note under a fermata marked “very long.” Below the note a crescendo is marked from pppp to ffff, followed by a decrescendo back to pppp. The exact length and instrumentation are not specified: percussionists often choose a tam-tam for its sustain and complex resonance, but other versions include a rendition by the rock band Sonic Youth. The work’s symmetrical “swell form” is typical of many of Tenney’s works, and reflects his interest in predictable forms which focus attention on sonic experience rather than dramatic rhetorical turns: “I’m interested in a form that as soon as you’ve heard a couple of minutes of it, you get a pretty good idea of what you’re going to hear later. So you can sit back and relax and get inside the sound” (Tenney 2008). Other Postal Pieces explore the phenomena of beats between closely tuned pitches (Beast for solo double bass) and gradual transitions through the pitch continuum (Koan for solo violin, a glacially slow glissando producing constantly changing intervals).
+
+												
+
+												Tenney’s orchestral work Clang (1972) marks the beginning of a long series of works that explore the overtone series, which Tenney describes as a “given” for the human perception of sounds. In many ways, Tenney’s work in this field parallels that of the French spectral school, which Tenney did not discover until the 1990s. Using the overtone series introduces a number of pitch intervals foreign to Western tuning systems, including the just-intonation major third and the natural seventh. Tenney’s overtone-based works include Saxony (1978) for saxophone and tape delay, Three Indigenous Songs (1979), which is modeled on the acoustic structure of spoken language, and Koan for String Quartet (1984), an ensemble reworking of the solo violin Postal Piece that adds a harmonic backdrop to its constantly changing intervals. Later overtone works like the Spectrum series (1995-2001) and Tenney’s last completed composition Arbor Vitae (2006) were composed algorithmically with computer programs written by Tenney: the program randomly selects values for parameters including pitch and duration within a carefully controlled range of possibilities.
+
+												
+
+												Tenney’s influential META + HODOS (1961) is a phenomenological study of the new musical materials of twentieth-century music, drawing on ideas from Gestalt psychology. His interest in the overtone series as a model for pitch organization led to research in the history of music theory in A History of “Consonance” and “Dissonance” (1988) as well as a perception-based exploration of extended just intonation in “John Cage and the Theory of Harmony.” As a professor at York University and the California Institute of the Arts, Tenney was influential on a range of younger composers, including Charlemagne Palestine, Larry Polansky, John Luther Adams, and Marc Sabat.
+
+												
+
+												[788 words]
+
+												
+
+												Selected works by Tenney
+
+												Seeds I-VI (1956/1961) For flute, clarinet, bassoon, horn, violin and cello. 
+
+												Collage #1 (“Blue Suede”) (1961) Music recorded on magnetic tape. 
+
+												Stochastic String Quartet (1963)
+
+												Collage #2 (“Viet-Flakes”) (1966) Music recorded on magnetic tape, for the film Viet-Flakes by Carolee Schneemann.
+
+												Swell Piece (1967) For any number of instruments beyond three (Postal Piece #6).
+
+												For Ann (rising) (1969) Music recorded on magnetic tape.
+
+												Beast (1971) For double bass. For Buell Neidlinger (Postal Piece #1).
+
+												Koan (1971) For solo violin. For Malcolm Goldstein (Postal Piece #4).
+
+												Having Never Written a Note for Percussion (1971) For John Bergamo (Postal Piece #10).
+
+												Clang (1972) For orchestra.
+
+												Quintext: Five Textures (1972). For string quartet and double bass.
+
+												Spectral Canon for Conlon Nancarrow (1974). For harmonic (just-intonation) player-piano.
+
+												Saxony (1978) For one or more saxophone players and tape-delay system.
+
+												Three Indigenous Songs (1979) For two piccolos, alto flute, tuba or bassoon, and
+
+												two percussion.
+
+												Koan for String Quartet (1984).
+
+												Changes: 64 Studies for Six Harps (1985) For Udo Kasemets.
+
+												Critical Band (1988/2000) For sixteen or more sustaining instruments.
+
+												Form series (1-5) (1993) Numbers 1-4 for variable ensemble of at least 16 players, including woodwinds, brass, strings and pitched percussion. Number 5 recorded on magnetic tape.
+
+												Spectrum series (1-8) (1995-2001) For variable ensembles.
+
+												Diapason (1996) For chamber orchestra.
+
+												Arbor Vitae (2006) For string quartet.
+
+												
+
+												Selected writings by Tenney
+
+Tenney, James. META + HODOS (A Phenomenology of 20th-Century Musical Materials and an Approach to the Study of Form) and META Meta + Hodos. Lebanon, NH: Frog Peak Music, 1986 (2nd ed., 1988). Written in 1961 as a master’s thesis, META + HODOS was first published by the Inter-American Institute for Musical Research, Tulane University, New Orleans, 1964. The article ‘META Meta + Hodos’ appeared in the Journal of Experimental Aesthetics 1.1 (1977).
+
+———. A History of “Consonance” and “Dissonance.” New York: Excelsior Music Publishing, 1988.
+
+———. “Temporal Gestalt Perception in Music.” With Larry Polansky. Journal of Music Theory 24/2 (1980): 205-241.
+
+———. “John Cage and the Theory of Harmony.” In Soundings 13: The Music of James Tenney, 55-83. Santa Fe, New Mexico: Soundings Press, 1984. Reprinted in Writings about John Cage, edited by Richard Kostelanetz, 136-61. Ann Arbor, Michigan: University of Michigan Press, 1993.
+
+———. “The Several Dimensions of Pitch.” In The Ratio Book: A Documentation of the Ratio Symposium, Royal Conservatory, The Hague, 14–16 December 1992, edited by Clarence Barlow, Feedback Papers 43, 102-115. Cologne: Feedback Studio Verlag, 2001.
+
+———. “James Tenney: Postcards from the Edge.” Interview with Frank Oteri. New Music Box, June 1, 2005. http://www.newmusicbox.org/articles/james-tenney-postcards-from-the-edge/. Accessed September 25, 2012.
+
+———. “Interview with James Tenney.” Interview with Donnacha Dennehy. Contemporary Music Review 27/1 (2008): 79-89.
+
+
+
+Writings about Tenney
+
+Gilmore, Bob. "Changing the Metaphor: Ratio Models of Musical Pitch in the Work of Harry Partch, Ben Johnston, and James Tenney." Perspectives of New Music 33/1-2 (1995): 458-503.
+
+Hasegawa, Robert, ed. “The Music of James Tenney.” Special issue, Contemporary Music Review 27/1 (2008).
+
+Polansky, Larry. “The Early Works of James Tenney.” Soundings 13 (1983): 116-274.
+
+Wannamaker, Robert. “The Spectral Music of James Tenney.” Contemporary Music Review 27/1 (2008): 91-130.

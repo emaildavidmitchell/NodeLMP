@@ -7,7 +7,6 @@ var fs = require("fs");
 var sparqlclient = require('sparql-client'); //for querying dbpedia
 var util = require('util');
 var spawn = require("child_process").spawn;
-
 var app = express();
 
 //the folder where are views are
@@ -20,15 +19,29 @@ app.set("view engine", "ejs");
 var endpoint = 'http://dbpedia.org/sparql';
 client = new sparqlclient(endpoint);
 
-//read in the list of articles
-var articles = {}
-fs.readFile("./public/articles.txt", 'utf8', function(err,data) {
+
+var articles = [],
+    desc = {},
+	imgs = {};
+
+fs.readFile("./public/art_desc.txt", 'utf8', function(err,data) {
 	if (err) {
 		return console.log(err);
 	}
-	articles = data.split("\n");
-	console.log("Article list loaded");
+	data = data.split("\n");
+	data.forEach(function(line) {
+		line = line.split(":::");
+		articles.push(line[0]);
+		desc[line[0]] = line[1];
+        fs.readdir('./public/img/image_bar/' + line[0], function (err,files) {
+			if (files != undefined)
+				imgs[line[0]] = files;
+			else
+				imgs[line[0]] = [];
+        });
+	});
 });
+
 
 //logs requests in dev form
 app.use(morgan("dev"));
@@ -50,6 +63,7 @@ process.on('uncaughtException', function (err) {
 //ensure the client view can access the list of articles
 app.use(function(request,response,next) {
 	response.locals.articles = articles;
+	response.locals.imgs = imgs;
 	next();
 });
 
@@ -68,22 +82,12 @@ app.post("/network/expand", function(request,response) {
 
 app.get("/network", function(request,response,next) {
 	
-	console.log("Searching for " + request.query.search);
-	var process = spawn('python3',['/Users/dcmitchell/Desktop/Node/LMP/public/get_article_label.py',request.query.search]);
-	
-	var wiki_query = "";
-	process.stdout.on('data',function(data) {
-		wiki_query += data;
-	});
 
-	process.stdout.on('end', function() {
-		wiki_query = wiki_query.trim();
-		request.query.search = wiki_query;
-		console.log("Found " + wiki_query);
-		node_data_promises(wiki_query).then(values => {
-			response.locals.node_data = create_node_data(wiki_query,values);
-			response.render("network");
-		});
+	query = request.query.search;
+	console.log("Searching for " + query);
+	node_data_promises(query).then(values => {
+		response.locals.node_data = create_node_data(query,values);
+		response.render("network");
 	});
 });
 
@@ -167,6 +171,6 @@ function filter_links(links) {
 
 function create_node_data(name,values) {
 
-    return {label: name, uri: values[0], links_in: filter_links(values[1]), links_out:filter_links(values[2]), type: values[3]}
+    return {label: name, uri: values[0], links_in: filter_links(values[1]), links_out:filter_links(values[2]), type: values[3], desc: desc[name]}
 }
 

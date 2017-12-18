@@ -123,8 +123,11 @@ function update() {
 			.attr("y2", function(d) {
 				return d.dest.y;
 			})
-			.attr("stroke", "green")
-            .attr("stroke-width", "7")
+            .attr("stroke", "#999")
+            .attr("stroke-width", "2")
+            .attr("stroke-opacity", 0.3)
+            .on("mouseover", edgemouseover)
+            .on("mouseout", edgemouseout)
 			.append("title")
 			.text(function (d) {
 				return d.relation;
@@ -172,7 +175,10 @@ function dragged(d) {
   		return d.dest.y;
   	});
 
-    $("#tooltip").css({left: d.x+100, top: d.y-50});
+    $("#tooltip").css({left: d.x+150, top: d.y-50});
+
+    $("#media-bar").css({visibility: "hidden"});
+
 
 }
 
@@ -198,10 +204,32 @@ function mouseover(d) {
 			return get_font_size(d,3);
 		});
 
-	$("#tooltip").css({left: d.x+100, top: d.y-50, visibility: "visible"})
-		.text(d.name + " description");
+	$("#tooltip").css({left: d.x+150, top: d.y-50, visibility: "visible"})
+		.text(d.desc);
 
-	$("#media-bar").css({visibility: "visible"});
+    if (d.y < parseInt(svg.style("height"))-150) {
+        $("#media-bar").css({visibility: "visible"});
+        $('#image-container').empty();
+        /*imgs[d.name].forEach(function (img) {
+            $('#image-container').prepend('<img id="theImg" height="100px" src="/img/image_bar/' + d.name + '/' + img + '" />');
+        });*/
+    }
+}
+
+function edgemouseover(d) {
+
+	d3.select(this)
+        .attr("stroke", "black")
+        .attr("stroke-width", "5")
+
+}
+
+function edgemouseout(d) {
+
+    d3.select(this)
+        .attr("stroke", "#999")
+        .attr("stroke-width", "2")
+
 }
 
 

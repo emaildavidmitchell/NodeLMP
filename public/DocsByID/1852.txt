@@ -1,0 +1,59 @@
+
+
+Spectralism is a tendency in contemporary art music that takes the material attributes of sound as the point of departure for composition. Originating in France and Romania in the 1970s, partly in reaction to the perceived hegemony of serialism and other high modernist styles, since the 1980s the influence of spectral ideas and techniques has spread across Europe, Asia, and North and South America. Its most prominent representatives are Gérard Grisey (1946-1998), Tristan Murail (1947--) and Horatiu Radulescu (1942-2008).
+
+
+
+In France, spectralism grew out of the work conducted by the circle of composers associated with the new music ensemble l’Itinéraire, founded in 1973 by Murail and Roger Tessier. Although the ‘spectral’ moniker was not applied to the music of Grisey, Murail, or other members of this group until 1979, when composer Hugues Dufourt coined the term for a radio program outlining their compositional philosophy, many of the basic precepts of the spectral aesthetic had already taken shape by the mid-1970s. Foremost among these was the call to return to sound. Exploring the psychoacoustic properties of sound, it was argued, would provide a more secure foundation for musical communication, pointing a way beyond the abstractions of serial technique. This renewed attention to the materiality of sound led to a heightened appreciation for the interdependence of its constituent parameters (frequency, duration, intensity, timbre), which stood in contrast to their dissociation in serial theory and practice.
+
+Spectralism is a tendency in contemporary art music that takes the material attributes of sound as the point of departure for composition. Originating in France and Romania in the 1970s, partly in reaction to the perceived hegemony of serialism and other high modernist styles, since the 1980s the influence of spectral ideas and techniques has spread across Europe, Asia, and North and South America. Its most prominent representatives are Gérard Grisey (1946-1998), Tristan Murail (1947--) and Horatiu Radulescu (1942-2008).
+
+
+
+In France, spectralism grew out of the work conducted by the circle of composers associated with the new music ensemble l’Itinéraire, founded in 1973 by Murail and Roger Tessier. Although the ‘spectral’ moniker was not applied to the music of Grisey, Murail, or other members of this group until 1979, when composer Hugues Dufourt coined the term for a radio program outlining their compositional philosophy, many of the basic precepts of the spectral aesthetic had already taken shape by the mid-1970s. Foremost among these was the call to return to sound. Exploring the psychoacoustic properties of sound, it was argued, would provide a more secure foundation for musical communication, pointing a way beyond the abstractions of serial technique. This renewed attention to the materiality of sound led to a heightened appreciation for the interdependence of its constituent parameters (frequency, duration, intensity, timbre), which stood in contrast to their dissociation in serial theory and practice. It also brought to light the inherent dynamism of sound, a quality that the fixed character of musical notation obscures. The crystallization of these aesthetic tenets was accompanied by the development of stylistic conventions and compositional procedures characteristic of early French spectralism. These included the use of gradually unfolding processes that span qualitatively distinct musical states (harmonicity/inharmonicity, periodicity/aperiodicity); the simulation within an instrumental medium of effects deriving from electroacoustic composition (echo, distortion, feedback, ring modulation); and the use of sound spectra as models for pitch organization. This last technique features prominently at the opening of Grisey’s Partiels (1975), the third piece in his cycle Les espaces acoustiques (1974-85), where a trombone’s low E is resynthesized by an eighteen-piece ensemble. Using a spectrographic analysis of the trombone note, Grisey assigns its partials to different instruments, respecting their relative dynamic level, order of entry, and registration. However, since each instrument has its own spectral envelope, the resulting sonority does not fuse completely, but instead resides in what Grisey described as a liminal zone between harmony and timbre.
+
+
+
+File: partiels opening.pdf
+
+
+
+Contemporaneous with the early experiments of the Itinéraire composers was the development in Romania of a distinctive brand of spectralism. In contrast to its French counterpart, which in its early years presented a relatively cohesive front, Romanian spectralism proved a much more diffuse phenomenon, there being no shared forum that united composers in the same way that the ensemble l’Itinéraire had in France. Nonetheless, some common threads run through Romanian spectralism of this period. One is a more intuitive, less formalistic, approach to composing out the spectral components of sound. Coupled with this is a tendency to invest the exploration of sound’s inner space with a meditative, even mystical, quality apparent in the discourse of figures like Octavian Nemescu, Iancu Dumitrescu, and Horatiu Radulescu. In addition, whereas French spectral music is often described as expanding upon the heritage of Debussy, Ravel, and Messiaen, in Romania the country’s indigenous folk traditions provided an analogous point of reference. The idiosyncratic sound of instruments like the bucium (a valveless alpenhorn that can only produce notes from the harmonic series) has been cited by composers like Ana-Maria Avram as formative for the movement, while traditional folk melodies have figured prominently in the music of Stefan Niculescu, as well as in certain later works of Radulescu (notably his 1996 Piano Concerto The Quest).
+
+
+
+By the early 1980s, spectralism had begun to receive a degree of institutional recognition, evidenced by the invitation in 1982 of l’Itinéraire to the Darmstadt summer courses, one of the premier forums for avant-garde music in Europe. As spectralism became more firmly entrenched within the European new music scene, its techniques were adopted by a growing number of young composers, including Philippe Hurel, Claude Vivier, Marc-André Dalbavie, Kaija Saariaho, and Magnus Lindberg, among others. The musical rhetoric of the latter departed in many ways from the conventions established by Grisey, Murail, and their colleagues. More dynamic and articulated formal designs displaced the gradual processes characteristic of early French spectralism, at the same time as elements like melody and counterpoint, hitherto marginal in much spectral music, were reintroduced. The style and rhetoric of Murail and Grisey underwent comparable changes during the same period. Their music from the 1980s on introduced greater discontinuity and unpredictability; in pieces like Murail’s Serendib (1991-92) and Grisey’s Vortex Temporum (1994-96), processes unfolding at different time-scales are superimposed, creating more complex temporal and formal structures than evinced in their earlier works.
+
+
+
+By the beginning of the new millennium, procedures associated with spectralism had spread so widely and been adapted to fit such a diversity of aesthetics that it no longer made much sense to describe it as a single, unified movement. Indeed, many commentators now prefer the term post-spectralism to describe the various tendencies that have branched out from spectralism and, in many cases, have merged with other trends in contemporary music. These include tendencies that incorporate overtone-based harmonies into a broader microtonal framework (Georg Friedrich Haas); musics that use techniques of timbral transformation to bridge the art music/popular music divide (Fausto Romitelli); approaches to neo-tonal writing that supplement the traditional consonance/dissonance distinction with those opposing harmonicity/inharmonicity or sound/noise (Kaija Saariaho); and forms of experimental jazz and improvised music that use spectral sonorities to enrich their harmonic palette (Stephen Lehman). Running parallel to this dispersal of the spectral aesthetic have been efforts to redefine the term in a more expansive way, to encompass any music that gives primacy to timbre, regardless of genre. Such a reformulation of the meaning of spectralism, should it gain widespread currency, would further dilute the movement’s original identity.
+
+Further reading:
+
+
+
+(Cohen-Levinas)
+
+
+
+(Fineberg)
+
+
+
+(Fineberg, Spectral Music: Aesthetics and Music)
+
+
+
+(Grisey)
+
+
+
+(Murail)
+
+
+
+(Radulescu)
+
+
+
+(Proceedings of the Istanbul Spectral Music Conference)

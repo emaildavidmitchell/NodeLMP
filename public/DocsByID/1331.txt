@@ -1,0 +1,33 @@
+
+
+With the advent in the late 1940s of acetate-backed magnetic tape for sound recording, a new approach to the composition of music began to develop — recorded sounds could now be altered by cutting tape and re-attaching it in different configurations. Sounds could thus be layered, cut into sections, played backwards, electronically altered, and re-recorded. Compositions were played over speaker systems in concert halls, often without the involvement of performers. 
+
+
+
+After the NRC programme in electronic music began, the focus of Le Caine’s instruments shifted from performance to composition. The first prototype of this new instrument was able to play six tapes simultaneously, changing the playback speed and recombining the resulting sound into a single recording. The tapes were played on a single capstan at the left of the instrument while the speeds were controlled by a three octave keyboard on the right. Volume was controlled in six groups by six touch-sensitive keys. The instrument was later expanded to play ten stereo tapes, and produce one stereo. The instrument, then, resembled a multiple tape player opposed to a simple tape recorder.
+
+With the advent in the late 1940s of acetate-backed magnetic tape for sound recording, a new approach to the composition of music began to develop — recorded sounds could now be altered by cutting tape and re-attaching it in different configurations. Sounds could thus be layered, cut into sections, played backwards, electronically altered, and re-recorded. Compositions were played over speaker systems in concert halls, often without the involvement of performers. 
+
+
+
+After the NRC programme in electronic music began, the focus of Le Caine’s instruments shifted from performance to composition. The first prototype of this new instrument was able to play six tapes simultaneously, changing the playback speed and recombining the resulting sound into a single recording. The tapes were played on a single capstan at the left of the instrument while the speeds were controlled by a three octave keyboard on the right. Volume was controlled in six groups by six touch-sensitive keys. The instrument was later expanded to play ten stereo tapes, and produce one stereo. The instrument, then, resembled a multiple tape player opposed to a simple tape recorder.
+
+
+
+Five Multi-tracks (formally Special Purpose Tape Recorders) were built at the NRC lab. Le Caine composed his landmark composition Dripsody in 1955 using the new Multi-track and a recording of a single drop of water. Several other compositions followed. Although the Multi-track could have been operated in real time, this was seldom done. In the studio it was used to process pre-recorded tapes, often in several stages.
+
+
+
+The central mechanical component of the instrument was a variable speed motor that drove the shaft on which the tapes were mounted. The motor was controlled from a keyboard where the initial playback speed could be set to establish a reference pitch. Since both the playback speed of the tape and the frequency of the note doubled at every octave, the keyboard was a particularly appropriate control device used by musicians. 
+
+
+
+By 1957 the Multi-track keyboard incorporated a glide strip, similar to that used in the Sackbut, making it possible to change the playback speed gradually. At the point on the glide strip directly behind a key, the pitch of the glide strip corresponded with that of the key. The range of the keyboard could also be adjusted from its normal three octaves to four or to as few as one, providing tiny increments of speed change. If irregular increments were needed, each key could be tuned to any pitch, with the reservation that the pitches had to be arranged with lower ones to the left and higher ones to the right. 
+
+
+
+The Multi-track became the feature instrument of a new electronic music studio at the University of Toronto which opened in 1959. This was the first studio of its kind in Canada, and the second in North America. The new studio made the Multi-track available for use by many composers and had a broad impact on the development of electronic music, and composers came from all over the world to work with it. Multi-tracks were sent to the new studio at McGill University in Montreal in 1964, to Queen’s University, to the University of Toronto’s second studio, and to a studio in Jerusalem. Requests for Multi-tracks were received from England and the USA but, again, the commercial manufacture of the instrument failed.
+
+Further reading:
+
+[Enter citations for further reading here]

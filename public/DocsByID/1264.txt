@@ -1,0 +1,55 @@
+Microtonality
+
+
+
+Gayle Young
+
+
+
+Microtonality refers to any use of pitch that departs from twelve equally-spaced tones per octave (twelve-tone equal temperament), the standard tuning established in Europe since the nineteenth century. This tuning has come to dominate music internationally through the widespread use of mass-produced instruments with standard tunings, such as electronic keyboards.
+
+
+
+Modernist microtonal music poses two main alternatives to twelve-tone equal temperament: tunings which divide the octave into different numbers of equal steps, called equal-tempered tuning, and tunings based on arithmetical ratios, called just intonation tuning. 
+
+
+
+The essence of equal-tempered microtonality is the division of the octave into equal steps of different sizes, sometimes larger than those of standard twelve-tone equal temperament—five, seven, eight or ten steps per octave—but usually smaller. The interval between two pitches is defined by the number of cents separating them, with 100 cents allocated to each of the usual twelve half tones and a total of 1,200 cents in every octave. Tuning in 24 equal steps per octave (each step size being 50 cents) is referred to as quarter-tone tuning. Some composers prefer to work with multiples of twelve, such as 36-tone (33.3 cents), 48-tone (25 cents), and 96 equal steps of 12.5 cents—as proposed by Mexican composer Juliàn Carrillo in the 1920s. Many other divisions of the octave are used, such as 19-tone (63.2 cents) and 31-tone (38.7 cents). These tunings often include intervals that closely approximate just intonation ratios. The advantage of using an equal-tempered tuning to access just ratios is that equal-tempered pitch structures can easily be transposed. Composers who have pioneered equal-tempered tunings include: Easley Blackwood, Juliàn Carrillo, Adriaan Fokker, Alois Hába, Christiaan Huygens, Bruce Mather, and Ivan Wyschnegradsky.
+
+
+
+Just intonation tunings are defined by frequency ratios—fractions using low prime numbers. A pitch is defined by the number of times it vibrates per second, called Hertz (shortened to Hz). This number is the frequency of the pitch. A pitch vibrating at a frequency of 440 Hz is called A-440, and is the tone used to tune an orchestra or chamber ensemble before a performance. An arithmetical ratio defines a justly tuned relationship between two frequencies. A frequency of 660 Hz has a 3:2 relationship with 440 Hz—it is a perfect fifth above A-440. Just tunings are often related to a naturally-occurring sequence of pitches called the overtone series, or harmonic series, in which a fundamental pitch such as 440 Hz is multiplied by 2, 3, 4, 5, to create frequencies of 880, 1320, 1760, 2200, etc. These are the first five pitches in an harmonic series based on A-440. In just intonation these multiplications are shown as pitch ratios 1/1, 2/1, 3/1, 4/1, 5/1 continuing to 7/1, 11/1, 19/1, etc. They can be added to and subtracted from one another, creating denominators other than one when they are subtracted. Tonal scales in simple just intonation have been part of the music history of many world cultures. A sequence of ratios might include:
+
+
+
+1/1 	tonic			0 cents
+
+10/9 	major second		182 cents
+
+6/5 	minor third		316 cents
+
+5/4 	major third		386 cents
+
+4/3 	perfect fourth		498 cents
+
+3/2 	perfect fifth		702 cents
+
+8/5 	minor sixth		814 cents
+
+5/3 	major sixth		884 cents
+
+9/5 	minor seventh		1018 cents
+
+2/1 	octave			1200 cents 
+
+
+
+In modernist just tunings this basic pitch set is often expanded by further addition and subtraction and by introducing higher prime numbers such as 7, 11, 13, etc. The number of potential pitches quickly expands to a huge array of possibilities; composers limit the range of options by choosing specific elements of the tuning. To transpose a passage, the transposition interval is added to or subtracted from each note of the original sequence, and again the number of different pitches begins to proliferate. The advantage of the system is the coherence provided by the numerical simplicity of the ratios themselves, forming acoustically pure relationships among the different frequencies. Composers who have pioneered the using of just intonation tunings include Wendy Carlos, Ivor Darreg, Lou Harrison, Ben Johnston, Harry Partch, and James Tenney.
+
+
+
+Composer Ivor Darreg coined the term xenharmonic as an alternative to microtonal, to avoid the implication that microtonal tunings always use intervals smaller than 100 cents. The term xenharmonic would include a tuning such as Bohlen-Pierce, in which the third harmonic, an octave plus a perfect fifth (1900 cents), is divided into thirteen scale steps of 146.3 cents, considerably larger than a semitone in twelve-tone equal temperament.
+
+
+
+Microtonal tunings have been a central feature of electronic and electroacouastic music, both in music for re-tuned electronic keyboards and in spectralist composition exploring harmonics within complex sounds.

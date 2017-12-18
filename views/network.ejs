@@ -1,12 +1,28 @@
 <% include header %>
 		<style>
+
+			html, body {
+				height: 100%;
+				min-height: 100%;
+
+			}
+
 			#tooltip {
-				height: 300px;
+				height: 295px;
 				width: 200px;
+				padding: 5px;
 				background-color: yellow;
 				position: fixed;
 				visibility: hidden;
-				opacity: .5;
+				opacity: .8;
+				overflow: hidden;
+				font-size: 13px;
+
+			}
+
+			#graph-container {
+				height: 100%;
+				min-height: 100%;
 			}
 
 			.footer {
@@ -15,18 +31,23 @@
 				height: 100px;
 				width: 100%;
 				background-color: pink;
+				overflow: auto;
 				visibility: hidden;
+				float: left;
+
 			}
 		</style>
 		<div class="container-fluid" id="graph-container">
-			<svg width=100% height=500 id="graph"></svg>
+			<svg width=100% height=100% id="graph" shape-rendering="geometricPrecision"></svg>
 			<div id="tooltip"></div>
 		</div>
 			<script src="https://d3js.org/d3.v4.min.js"></script>
 			<script src="network_script.js"></script>
 			<script>
 				var node_data = <%- JSON.stringify(node_data) %>;
+				var imgs = <%- JSON.stringify(imgs) %>;
 				console.log(node_data);
+				console.log(imgs);
 				var node_set = [];
 				var edge_set = [];
 				add_node(node_set, edge_set, node_data, false, 0);
@@ -35,7 +56,7 @@
 			<script type="text/javascript" src="d3Graph.js"></script>
 
 		<footer class="footer" id="media-bar">
-			<div class="container">
+			<div class="container" id="image-container">
 				<p class="text-muted">Place media content here</p>
 			</div>
 		</footer>

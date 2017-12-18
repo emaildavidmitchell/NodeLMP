@@ -1,0 +1,217 @@
+Animation
+
+SUMMARY: 
+
+Unlike live-action film, which records motion, animation creates the illusion of motion from static imagery. Animated films are made using a variety of techniques, such as cel animation, modified base, direct animation, cutouts, stop-motion, rotoscoping, motion capture, and computer graphics. Dating back to the early 1900s, the art of animation has evolved with the help of key technological advances, such as the cel process, the multiplane camera, and computer animation software. Today, animation plays an increasingly prominent role in Hollywood cinema, as many live-action features rely heavily on visual effects. In the USA, the history of animation is closely tied with the industrial model and naturalistic aesthetics favoured by Walt Disney studios, as well as with the seven-minute screwball comedy cartoon popularized by MGM and Warner Bros. In Europe, the large studio model never gained a foothold; instead, independent animators thrived and produced stylistically innovative, experimental, and oftentimes – especially in the case of Eastern Europe – politically subversive films. In Japan anime emerged as a distinct global phenomenon largely shaped by the manga comics tradition and recognizable for its exaggerated gestures and hyperkinetic movements, its genre diversity, and its adoption of adult-oriented themes and content. 
+
+
+
+DEFINITION AND TECHNIQUES: 
+
+Debates about the most appropriate way to define animation while still accounting for the multiplicity of techniques and methods employed by this cinematic mode are still ongoing. Charles Solomon describes it as filmmaking in which the imagery is photographed in succession frame by frame and the illusion of motion is created rather than recorded. Animator Norman McLaren (1914–1987) famously said that “animation is not the art of drawings that move but the art of movements that are drawn.” In recent years, the proliferation of computer-generated animation and its prominent presence in live-action cinema has inspired some animation scholars, notably Alan Cholodenko and Lev Manovich, to argue that animation subsumes cinema and cinema is indeed simply one particular case of animation.
+
+For most of the twentieth century, cel animation was the dominant form. A cel is a transparent flexible sheet of drawing material. Foreground moving images are drawn onto the cels, which can be layered and placed over a painted background. Invented by Earl Hurd (1880–1940) in 1914, the cel method saved labour costs because it allowed an animator to redraw only the moving portion of a figure. With the multiplane camera, developed by Walt Disney (1901–1966) and first used in The Old Mill (1937), cels can be moved at various speeds and distances from one another, so that when they are shot from above, this creates a convincing illusion of depth and generates realistic movement through space. 
+
+Some animators use a modified base technique, in which a single image becomes the base and is constantly changed. Such movies usually feature pastels, charcoals, or oil paints because these materials are soft enough to be easily erased or smudged. Examples of this include Korova (The Cow, 1989) by Russian animator Alexander Petrov (1957–) and The Owl Who Married a Goose (1974) by Caroline Leaf (1946 – ). 
+
+Direct animation does not involve the use of camera; it is made by scratching or painting directly on film stock. The results are colourful, vibrant experimental films which favour rhythm, movement, and the interplay between shapes over narrative. Notable direct films include Colour Box (1936) by Len Lye (1901–1980), Blinkity Blank (1955) by Norman McLaren, and Mothlight (1963) by Stan Brakhage (1933-2003).
+
+Cutout animation is a technique using flat characters and backgrounds made from such materials as paper, cardboard, and fabrics, and lit from the top. This method is used by Russian director Yuri Norstein (1941 –), author of Yozhik v tumane (The Hedgehog in the Fog, 1975) and Skazka skazok (Tale of Tales, 1979). In the case of silhouette animation, cutouts are lit from below, so that their shadows are visible on screen. This approach is used in the German fairy tale film Die Abenteuer des Prinzen Achmed (The Adventures of Prince Achmed, 1926) by Lotte Reiniger (1899–1981).
+
+In stop motion, an object is moved in small increments between individually photographed frames in order to create the illusion of autonomous movement. Stop-motion films typically use puppets, although some animators also film cutouts, clay, everyday objects, and even food. Notable stop-motion animators include Ladislaw Starewicz, George Pal, the Quay Brothers, Henry Selick, Adam Eliott, and Kawamoto Kihachiro. 
+
+Rotoscoping is a process invented by Max Fleischer (1883–1972) in 1915. It involves tracing over live-action footage frame by frame in order to achieve higher realism. It was used by Disney and Fleischer studios, as well as by Ralph Bakshi (1938 –), author of alternative, adult-themed films such as Fritz the Cat (1972) and Wizards (1977). 
+
+Motion capture, used in many contemporary films and videogames, relies on actors whose live performance is tracked and stored by software via motion sensors. Visual effects artists animate directly over the stored data, creating photorealistic human characters like those in Final Fantasy: The Spirits Within (Sakaguchi Hironobu and Sakakibara Motonori, 2001) or fantastic creatures which move in naturalistic ways, like Gollum in the Lord of the Rings trilogy (Peter Jackson, 2001– 2003). 
+
+
+
+HISTORY:
+
+Animation and Comics:
+
+
+
+Animation has its roots in devices which create the illusion of motion from a quick succession of static images, such as the zoetrope and the nineteenth-century praxinoscope. Fantasmagorie, a 1908 short by French artist Emile Cohl (1857 – 1938), is widely considered the first animated film. There are several notable trends in the development of animation throughout the twentieth century: the connections between animation and comics, the hegemony of large animation studios, and – partially in response to this big-budget commercial animation – the adoption of experimental techniques and approaches by independent artists for aesthetically and politically subversive purposes.
+
+From its earliest years, animation has been closely connected to cartoon strips and comics. In the US in the 1910s, it was comic book artists such as Winsor McCay (1869–1934) who began to develop a more sophisticated animation language featuring realistic perspective and complex designs. The 1920s saw adaptations of popular cartoon strips, such as Krazy Kat, the newspaper comic by George Herriman (1880–1944). Later, in the early 1940s, Fleischer studios produced a series of animated shorts based on the comic book character Superman. 
+
+Staring in the 1960s, Japanese animation – or anime, as it would soon be known as – began to move away from the influence of Western works and rely on the popular graphic medium of manga for stylistic and thematic inspiration. The launch of TV series Astro Boy in 1963 by renowned manga artist Tezuka Osamu (1928-1989) served as a catalyst for the evolution of anime into a powerful local and – since the 1980s – global industry. In more recent decades, Japan has produced internationally popular sci-fi manga adaptations, such as Akira (1988) by Otomo Katsuhiro (1954 –) and Ghost in the Shell (1995) by Oshii Mamoru (1951–  ). 
+
+In Latin America, Cuban director Juan Padrón (1947 – ) and Argentinian painter Simón Feldman are independent artists who also work in illustration, painting, and cartooning.
+
+With the increased sophistication of visual effects, comic book adaptations are enjoying a renaissance. Superheroes like Spider-Man and Batman have returned to the screen in animation-heavy live-action films. In 2011, Steven Spielberg (1946 –) transformed the famous Belgian comic series The Adventures of Tintin into a motion-captured action film.
+
+
+
+Studio Animation:
+
+
+
+In the 1910s, the first animation studios began to crop up in the USA thanks to entrepreneurs like John Randolph Bray (1879 – 1978). The rise of Walt Disney studios and their main competitor Fleischer Studios in the 1920s paved the way for the Golden Age of American Animation, which lasted until the early 1960s and gave birth to the classic seven-minute cartoon popularized by Warner Bros. and MGM and starring internationally popular characters such as Bugs Bunny, Daffy Duck, and Tom and Jerry. In Eastern Europe, particularly Eastern Bloc countries, animation production took place in government-run and sponsored studios, such as the Bulgarian Sofia Animation Studio and Soyuzmultfilm (founded in Moscow in 1936). In Russia, this studio system combined the country’s strong folk tale traditions with the influence of Disney animation, producing features such as Konyok Gorbunok (The Humpbacked Horse, 1947) and Snegurochka (The Snow Maiden, 1952) by Ivan Ivanov-Vano (1900–1987) and Alenkiy tsvetochek (The Scarlet Flower, 1952) by Lev Atamanov (1905-1981). 
+
+England’s leading animated studio, founded in 1940 by Hungarian émigré John Halas (1912-1995) and his wife Joy Batchelor (1914-1991), gained international recognition for its feature-length adaptation of Animal Farm (1954). During its fifty years of operation, the studio experimented with different techniques, such as cutouts, stop motion, and computer animation. It produced Britain’s first feature animation, the navy training film Handling Ships (1945). 
+
+In Japan, the animation industry is represented by studios such as Toei Animation, Gainax, and MADHOUSE. Studio Ghibli remains the best known internationally, largely thanks to the successful feature films of Miyazaki Hayao (1941 – ). 
+
+In the late 1980s, the animated short Luxo, Jr (1986), directed by John Lasseter (1957 –), demonstrated digital technology’s capacity for compelling character animation, ushering the era of big-budget computer animation by studios such as Pixar, DreamWorks and Blue Sky. With the proliferation of digital visual effects in contemporary action, fantasy, and sci-fi films such as Avatar (James Cameron, 2009) and The Avengers (Joss Whedon, 2012), animation has come to play a major role in live-action filmmaking, largely thanks to visual effects studios such as the New Zealand-based Weta Digital and Canada’s Rodeo FX.
+
+
+
+
+
+Independent and Avant Garde Animation:
+
+
+
+	Independent and experimental animation developed throughout the twentieth century as a response and alternative to mainstream commercial animation. In Europe, it was independent (and often avant-garde) animators, rather than big studios, who drove the evolution of the form in the early decades of the last century. In Germany, graphic artist Hans Richter (1888 – 1976) created abstract works such as Rhythmus 21 (1921), while in Sweden Viking Eggeling (1880-1925) pioneered absolute film and visual music with Diagonal Symphony (1924). In the UK, The Greater Post Office Film Unit (GPO), created in 1933, produced a number of documentaries and animated films, notably the experimental works of Len Lye, such as Rainbow Dance (1936) and Trade Tattoo (1937).
+
+In Russia, the initial wave of Disney imitation was eventually abandoned and, from the 1960s onwards, a new generation of animators opted for satirical pieces which eschewed naturalism and favoured subversive political messages. Examples include Chelovek v ramke (The Man in the Frame, 1966) by Fyodor Khitruk (1917–2012) and Steklyannaya garmonika (The Glass Harmonica, 1968) by Andrei Khrzhanovsky (1939–). Similarly, Estonian animator Priit Pärn (1946 - ) broke the rules of Soviet animation with his anti-establishment black humour, provocative content, and surrealist style, exemplified by Eine murul (Breakfast on the Grass, 1987). Western European animation also rebelled against perceived animation norms. For instance, Italian animator Bruno Bozzetto (1938 –) parodied Disney’s Fantasia (1940) in his feature Allegro Non Troppo (1976).
+
+	 In North America, the avant-garde was represented by the experimental work of animators such as the Americans Robert Breer (1926–2011), known for his mixed-media collage films, and Mary Ellen Bute, as well as the Scottish-born Canadian experimental animator Norman McLaren, who pushed the definition of animation with his pixilation and graphical sound films.
+
+Today, successful animated documentaries such as Vals Im Bashir (Waltz with Bashir) by Ari Folman (1962 – ) have demonstrated animation’s potential for nonfiction filmmaking, while quasi-documentary and personal accounts by Australian filmmakers Dennis Tupicoff (1951 –) and Lee Whitmore continue to expand the realm of animation approaches and subject matter. 
+
+
+
+ANIMATION AND MODERNISM
+
+	Animation’s development is intimately connected with modernity and the modernist movement. Many of the most unique and stylistically distinctive animated works of the twentieth century have been informed by modernist approaches and attitudes towards art, notably the abstraction of form and composition and the principles of surrealism and expressionism.
+
+The United Productions of America (UPA) studio, established in 1943 by former Disney animators Zack Shwartz, David Hilberman (1911-2007), and Stephen Bosustow (1911-1981), responded to Disney’s style with an abstract look which reduced characters and backgrounds alike to their basic, essential shapes and utilized a bold, non-naturalistic colour palette. For the next two decades, the studio became known for its inventive use of limited animation (reducing the number of drawings per second of animation) and its stylized minimalist imagery. Its famous shorts include Gerald McBoing Boing (Robert Cannon, 1950), Rooty Toot Toot (John Hubley, 1951), and When Magoo Flew (Pete Burness, 1954).
+
+In Croatia, the Zagreb Film studio, established in 1956, attained international recognition for its abstract and simplified, sketch-like forms, use of limited animation, self-reflexive awareness of the purely graphic qualities of animation, and biting social satire. The studio’s wordless humour and signature visual style is exemplified by Surogat, a 1961 Academy Award-winning short by Dušan Vukotić (1927-1998). Elsewhere in Eastern and Central Europe, Polish directors Jan Lenica (1928–2001) and Walerian Borowczyk (1923–2006) and Czech masters Jiří Trnka (1912-1969) and Jan Švankmajer (1934 – ) drew attention to their process and materials in a true modernist fashion, creating stop-motion and collage animation out of everyday objects and infusing it with a surrealist atmosphere and an air of existential uncertainty.
+
+	Africa’s best-known animator, South African multimedia artist William Kentridge (1955 – ), is notable for his expressionist approach to his art, wherein form and content are symbiotically linked, so that his unique techniques and the sensations they evoke hold as much meaning as his narrative. The film Felix in Exile (1995) illustrates his experimental technique of continuously altering and redrawing charcoal drawings on the same sheet, leaving traces of the previous image. 
+
+
+
+REFERENCES AND FURTHER READING:
+
+	Abraham, A. (2013) When Magoo Flew: The Rise and Fall of Animation Studio UPA, Middletown, CT: Wesleyan University Press.
+
+Amidi, A. (2006) Cartoon Modern: Style and Design in 1950s Animation, San Francisco: Chronicle Books.
+
+Bendazzi, G. (1995) Cartoons: One Hundred Years of Cinema Animation, Bloomington: Indiana University Press.
+
+Bukatman, S. (2012) The Poetics of Slumberland: Animated Spirits and the Animating Spirit, Berkeley: The University of California Press.
+
+Cavalier, S. (2011) The World History of Animation, Berkeley: University of California Press.
+
+Crafton, D. (1982) Before Mickey: The Animated Film 1898 – 1928, The University of Chicago Press.
+
+Fleischer, R. (2011) Out of the Inkwell: Max Fleischer and the Animation Revolution. Lexington: The University Press of Kentucky.
+
+Furniss, M. (2007) Art in Motion: Animation Aesthetics, Bloomington: Indiana University Press.
+
+Halas, V. and P. Wells (2006) Halas & Batchelor Cartoons: An Animated History, London: Southbank Publishing.
+
+Johnston, O. and F. (1995) The Illusion of Life: Disney Animation, New York: Hyperion.
+
+Kitson, C. (2005) Yuri Norstein and Tale of Tales: An Animator’s Journey. Bloomington: Indiana University Press.
+
+
+
+Klein, N. (1993) 7 Minutes: The Life and Death of the American Animated Cartoon, New York: Verso.
+
+
+
+MacFadyen, D. (2005) Yellow Crocodiles and Blue Oranges: Russian Animated Film since World War Two. Montreal: McGill Queens University Press.
+
+
+
+Maltin, L (1987) Of Mice and Magic: A History of American Animated Cartoons, New York: Penguin Books.
+
+
+
+Lent, J. (2001) Animation in Asia and the Pacific, Bloomington: Indiana University Press.
+
+
+
+Napier, S. (2005) Anime from Akira to Howl’s Moving Castle: Experiencing Contemporary Japanese Animation, New York: Palgrave.
+
+
+
+Pilling, J. (ed.) (1997) A Reader in Animation Studies, Sydney: John Libbey and Company.
+
+Price, D. (2009) The Pixar Touch, New York: Vintage.
+
+
+
+Prince, S. (2012) Digital Visual Effects in Cinema: The Seduction of Reality, New Brunswick: Rutgers University Press.
+
+
+
+Russett, R and C. Starr (1988) Experimental Animation: Origins of a New Art, New York: Da Capo Press.
+
+
+
+Sito, T. (2013) Moving Innovation: A History of Computer Animation, Cambridge: The MIT Press.
+
+
+
+Wells, P. (1998) Understanding Animation, London: Routledge.
+
+
+
+PARATEXTUAL MATERIAL:
+
+Animation World Network (contains articles, blog posts, events, news, forums, etc):
+
+	http://www.awn.com/
+
+	
+
+Cartoon Brew animation blog, edited by Amid Amidi: http://www.cartoonbrew.com/
+
+Cartoon Modern blog dedicated to cartoon art from the 1950s (maintained by Amid Amidi):
+
+	http://cartoonmodern.tumblr.com/
+
+
+
+Caroline Leaf’s The Owl Who Married a Goose (1974):
+
+http://www3.nfb.ca/animation/objanim/en/class/teachers/film.php?theme=30634&filmid=10510
+
+
+
+Émile Cohl’s Fantasmagorie: http://www.youtube.com/watch?v=aEAObel8yIE
+
+
+
+Ladislaw Starewicz’s The Cameraman’s Revenge (1912):
+
+	http://www.youtube.com/watch?v=vIC0Sb6pLvI
+
+
+
+Len Lye’s A Colour Box (1936):
+
+	http://www.youtube.com/watch?v=6PgNr0IZRDE
+
+
+
+The UPA Legacy Project (dedicated to materials on the UPA studio):
+
+	http://www.upapix.com/
+
+
+
+Walt Disney introduces the multiplane camera:
+
+http://www.youtube.com/watch?v=kN-eCBAOw60
+
+Zagreb Film official website: http://www.zagrebfilm.hr/index_e.asp
+
+Zoetrope (brief illustrated entry with additional links to other early cinema technologies):
+
+	http://www.earlycinema.com/technology/zoetrope.html
+
+
+
+
+
+Mihaela Mihailova
+
+Yale University

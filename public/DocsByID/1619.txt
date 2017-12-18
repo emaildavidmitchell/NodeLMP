@@ -1,0 +1,17 @@
+The Theory of Relativity
+
+
+
+The theory of relativity is the name given to two separate theories put forth by Albert Einstein (1879 – 1955): “Special Relativity” and “General Relativity”. When first published in 1905, Einstein’s “Theory of Special Relativity” upended Newtonian Mechanics and was in agreement with James Clerk Maxwell’s equations of electromagnetism. The theory opened up new avenues for particle physics and is thought to have ushered in the nuclear age. Relativity was also used to predict the existence of black holes and other cosmological phenomena. Special Relativity, Einstein’s theory of small particles, includes possibly the world’s most famous physics equation: E=mc², which predicts the relationship between mass and energy where energy is equal to the mass of an object multiplied by the speed of light squared.  Published in 1916, General Relativity was Einstein’s theory of gravitation, which challenged many of the notions of classical mechanics and put forth a view of the universe that considered time as a fourth dimension of space that moves forward relative to speed, rather than at a constant rate. One startling consequence of the theory of general relativity is that space-time is curved, and its curvature is affected by the energy and momentum of whatever matter and subsequent radiation is present. General relativity is currently still used by modern physics to describe gravitation and until now has been confirmed experimentally.
+
+
+
+Bibliography: 
+
+<http://www.farmingdale.edu/faculty/peter-nolan/pdf/relativity/BiblioRel.pdf>
+
+
+
+Adam James Bradley
+
+University of Waterloo

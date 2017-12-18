@@ -9,6 +9,7 @@ function add_node(node_set, edge_set, node_data, visibility="visible", parent={}
 		parent: parent,
 		visibility: visibility,
 		x: 0, y: 0, r: 0,
+		desc: node_data.desc,
 		id: node_set.length};
 
 	node_set.push(node);

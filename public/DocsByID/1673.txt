@@ -1,0 +1,39 @@
+RUSSELL, Bertrand Arthur William (1872-1970)
+
+
+
+Bertrand Russell, FRS, OM, and 3rd Earl Russell, was a mathematician, philosopher, social critic, political activist, writer and Nobel laureate in literature. Russell was born into an aristocratic family, and his Whig grandfather served twice as prime minister. At Cambridge, he followed the Idealism of the Hegelians J. M. E. McTaggert (1866-1925) and F. H. Bradley (1846-1924). Yet Russell’s Hegelianism was completely second-hand. When he actually read Hegel’s Logic, he concluded it was nonsense and Hegel a charlatan. This disillusionment led him to an analytic approach to philosophy. He was elected to the exclusive Cambridge society known as the Apostles and developed a complicated friendship with fellow Apostle G. E. Moore (1873-1958). This connection with the society would later link him to the Bloomsbury Group.
+
+
+
+Russell was profoundly bothered by the idea that, in Euclid, axioms and postulates were self-evident. For him, there should be reasons why axioms and postulates were true. Though at this age he was not aware of it, during the last half of the nineteenth century many mathematicians had come to the conclusion that all mathematics should have a rigorous grounding. This grounding was thought to lie in logic, which itself was undergoing a transformation from its Aristotelian form into a field of complex inquiry of its own. One approach held logic to constitute a formal language that, unlike “natural” languages in everyday use, avoided vagueness and achieved precision in the expression of meaning. This formal language would show that many questions in philosophy were mere artifacts of the vagueness and imprecision of natural language. One such line of thought derived from Gottfried Wilhelm Leibniz, about whom Russell wrote A Critical Exposition of the Philosophy of Leibniz (1900), an approach placing scientific and philosophical discourse upon a solid foundation. 
+
+
+
+Russell’s first book dealing with the foundations of mathematics was The Principles of Mathematics (1903). In this period he became aware of Friedrich Ludwig Gottlob Frege’s (1848-1925) work, especially Grundgesetze der Arithmetik (1892/1903), and entered into a correspondence with him. In the course of this exchange Russell mentioned what is perhaps the best known of his contributions to mathematical logic. This was Russell’s Paradox, which ironically undermined areas of Frege’s work on the second volume of the Grundgesetze and dogged Russell’s co-authored project with Alfred North Whitehead (1861-1947), the Principia Mathematica (1910, 1912, 1913). The paradox stated that it could not be decided whether the set of all given x (whatever x may be) was or was not a member of the set of all x—that is, should the set of all x be considered a member of itself?
+
+
+
+The Principia was Whitehead and Russell’s attempt to realize the goal of reducing the whole of mathematics to a logical system. While it failed to do accomplish this, it stimulated the development of British analytical philosophy, which took inspiration from and in turn influenced the Vienna Circle of logicians and philosophers. This movement included A. J. Ayer, Gilbert Ryle, J. L. Austen and Ludwig Wittgenstein (1889-1951). Russell himself would not always be sympathetic to developments in later analytic philosophy, and developed a difficult but productive relationship with Wittgenstein in particular. Russell’s intense relationship with Lady Ottoline Morrell (1873-1938) after 1910 introduced him to a wide network of politicians, artists, and writers, first at her home in Bedford Square, London, and after 1915 at her home in Garsington, Oxfordshire. Her manor house became the center of a social life that included both Bloomsbury figures and a wider circle beyond them.
+
+
+
+World War I drew Russell deep into politics, changing the direction of his life and thought. He emerged as a public intellectual engaged in moral, social and political issues. Though not a complete pacifist, Russell objected to the war. When Britain introduced conscription in 1916, he joined the Non-Conscription Fellowship. In 1916 Russell authored the “Everett Leaflet,” which the government claimed impeded the draft. He was tried on that charge and found guilty. He was also dismissed from his lectureship at Trinity. After a pacifist speech in Cardiff, Wales, the government banned him from speaking. In 1918 Russell wrote an article that was considered damaging to Britain’s relations with the United States, for which he was tried and sentenced to six months in prison.
+
+
+
+After World War I, Russell dedicated much time to writing popular philosophical and scientific books such as The ABC of Relativity (1925) and The ABC of Atoms (1923). Perhaps the most significant of these books is A History of Western Philosophy (1945), the successor to his The Problems of Philosophy (1912). In the 1930s Russell held academic positions at the University of California, Los Angeles and the University of Chicago. In 1940 his appointment to City College, New York was rescinded due to protests involving Russell’s atheism and morals. He was reinstated at Trinity in 1944 and made a lifetime fellow in 1949. In 1950 he was awarded the Nobel Prize in Literature. In his final years, Russell was active in protesting against nuclear arms and America’s war in Vietnam.
+
+
+
+Bibliography:
+
+
+
+A Bibliography of Bertrand Russell. Ed. Kenneth Blackwell, Harry Ruja, and Sheila Turcon. 3 volumes. Abington: Routledge, 1994.
+
+
+
+Michael T. Davis
+
+Princeton Theological Seminary

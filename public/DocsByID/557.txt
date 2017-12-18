@@ -1,0 +1,89 @@
+Einstein, Albert (1879-1955)
+
+Born in Ulm, Württemberg (now Germany), Einstein was a theoretical physicist who initiated a scientific revolution with his theory of general relativity. Challenging classical mechanics and its basis in Newtonian science, Einstein replaced the Euclidean model of geometry with four-dimensional spacetime and, from the axiom of the absolute speed of light, logically deduced the relativity of time. Subsequent to the advent of relativity theory, there is no longer any absolute temporal metric for defining the real. Einstein published two seminal papers, Zur Elektrodynamik bewegter Körper (1905; The Special Theory of Relativity) and Die Grundlage der allgemeinen Relativitätstheorie (1916; The General Theory of Relativity), and in 1921 was awarded the Nobel Prize in Physics. His name and iconic visage have become synonymous with modern science, leaving an ineradicable imprint on twentieth-century culture far beyond the enclaves of scientific research – a status partly achieved by his willingness to popularize his work. Einstein made lasting contributions to gravitational field theory, astrophysics and quantum mechanics, and much fame has accrued around his groundbreaking formula ‘E = mc2’, with its articulation of mass-energy equivalence. But it is with the theory and concept of time-relativity that Einstein’s thought crosses over into cultural and aesthetic modernism.
+
+Such was the popular reach of relativity theory that parts of its lexicon worked their way through general-readership publications, to enjoy life as metaphors in modernist works. But for many literary modernists in the 1910s, whose ‘classical’ poetics was based on hardness, solidity, tangibility and objectivity, Einsteinian relativity was an affront. It seemed to destabilize reality, rendering it fuzzy, impressionistic and indistinct. Objections to this turn came from T. S. Eliot, Ezra Pound, W. B. Yeats and, most insistently, Wyndham Lewis. In Time and Western Man (1927), Lewis incorporated several attacks on Einstein – often via relativity theory apologists or interpreters – into his frontal assault on ‘time-philosophy’, whose chief exponent was Henri Bergson. D. H. Lawrence, by contrast, who had read Einstein’s popular exposition of relativity theory, mentions it in Fantasia of the Unconscious (1922) and later adapts it for his own novelistic ends.
+
+Relativity also comes to the fore via the modernist preoccupation with non-linear time: with repetition, circularity and simultaneity, and with methods of distention and contraction. Marcel Proust exemplifies this in his novel-sequence À la recherche du temps perdu (1913-27; In Search of Lost Time), using a number of different tenses – some exclusive to the French language – to orchestrate rather than simply narrate time. In addition, Einstein’s avowal that every reference-body, or co-ordinate system, has its own particular time, and that the time of an event depends on this body / system, holds good for time-consciousness in the high-modernist novels of Virginia Woolf and William Faulkner. James Joyce  experimented with simultaneity in the ‘Wandering Rocks’ episode of Ulysses (1922), and in Finnegans Wake (1939) refers to Einstein and to 1920s debates on space and time. In the visual arts, the early avant-garde experimentation with non-Euclidean geometries and four-dimensionality, as seen in Marcel Duchamp’s Nude Descending a Staircase, No. 2 (1912) and The Large Glass (1915-23), is grounded in sciences before Einstein (Dalrymple Henderson 395). Cubism (see figs. 1-3) breaks with single-point perspective and its association with the static, idealized forms of Euclidean geometry to depict something like a four-dimensional representation of a person, object or scene.  And Italian Futurist painters (see figs. 4-5), in establishing a visual poetics of speed and dynamism, showed objects merging with their surroundings, not unlike the predictions of Einsteinian field theory. 
+
+Paul Sheehan, Macquarie University
+
+
+
+List of works
+
+(The following works are all English language translations. For a complete bibliography of writings up to 1921, see vol. 11 of The Collected Papers of Albert Einstein <http://bit.ly/QYOpOF>. The Einstein Archives Online <http://bit.ly/2NtRD> was launched in 2012 as a joint ongoing project, digitizing Einstein’s manuscripts held at project of the Hebrew University of Jersulem. For terms of use and permissions information for the Einstein Archives Online, see <http://bit.ly/PtAPm8>.)
+
+Einstein, A. (2012-2009) The Collected Papers of Albert Einstein, ed. D. K. Buchwald, Princeton: Princeton University Press, 13 vols.
+
+------ (2006) Relativity: The Special and General Theory, New York: Penguin.
+
+------ (2009) Einstein’s Essays in Science, New York: Dover.
+
+
+
+References and further reading
+
+Albright, D (1997) Quantum Poetics: Yeats, Pound, Eliot, and the Science of Modernism, Cambridge: Cambridge University Press. 
+
+Clarke, B. (2001) Energy Forms: Allegory and Science in the Era of Classical Thermodynamics, Ann Arbor: University of Michigan Press.
+
+Dalrymple Henderson, L. (2007) ‘Modernism and Science’ in A. Eysteinsson and V. Liska (ed.), Modernism, vol. 1, Amsterdam and Philadelphia: John Benjamins Publishing Company. 383-404. 
+
+Hayles, N. K. (1984) The Cosmic Web: Scientific Field Models and Literary Strategies in the Twentieth Century, Ithaca and London: Cornell University Press.
+
+Schleifer, R. (2000) Modernism and Time: The Logic of Abundance in Literature, Science, and Culture 1880-1930,  Cambridge: Cambridge University Press.
+
+Thiher, A (2005) Fiction Refracts Science: Modernist Writers from Proust to Borges, Columbia: University of Missouri Press. 
+
+Vargish, T. and Mook, D. E (1999) Inside Modernism: Relativity Theory, Cubism, Narrative, New Haven: Yale University Press.
+
+Whitworth, M. H. (2001) Einstein’s Wake: Relativity, Metaphor, and Modernist Literature, Oxford: Oxford University Press.
+
+
+
+Paratextual Material
+
+Cubism: [attached]
+
+ 
+
+Fig. 1 Braque, G. (1910) Violin and Candlestick, San Francisco Museum of Modern Art. <http://bit.ly/PHze6B> (See ‘Requesting Permission’ for reproduction requests <http://bit.ly/TkLTB1>.)
+
+
+
+Fig. 2 Picasso, P. (1912) Still life with Chair Caning, Musée National Picasso, Paris. <http://bit.ly/PHyNcx>
+
+
+
+Fig. 3 Picasso, P. (1916) La guitar, Private Collection. < http://bit.ly/MldUYO>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Futurism: [attached]
+
+
+
+Fig. 4 Russolo L. (1911) The Revolt, Gemeentemuseum, The Hague. <http://bit.ly/Ru4vhT>
+
+
+
+Fig. 5 Russolo, L. (1912-1913) Dynamism of an Automobile, Musée National d'Art Moderne - Centre Georges Pompidou. <http://bit.ly/O7LSkV>
+
+
+
+Fig. 6 Balla, G. (1913) Shape Noise Motorcyclist, Unknown. < http://bit.ly/cmfcjo>

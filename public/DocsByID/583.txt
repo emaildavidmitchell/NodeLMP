@@ -1,0 +1,33 @@
+Equal Temperament 
+
+
+
+Gayle Young
+
+
+
+
+
+Equal temperament is a musical tuning strategy which deals mathematically with musical intervals in order to allow perfect transposition; it replaced the Pythagorean approach. The octave can be divided into equal steps of many different sizes, ranging from step sizes larger than the standard twelve-tone equal temperament (such as five, seven, eight or ten equal steps per octave) to much smaller step sizes. Calculations of the sizes of intervals use ‘cents’, with each of the twelve semi-tones described as a one-hundred-cent interval. There are 1200 cents in every octave.  Pitches organized in twenty-four equal steps are referred to as quarter-tones, each fifty cents, and some composers prefer to work with multiples of twelve, such as thirty-six tone (33.3 cents), 48-tone (25 cents), and the division of the octave into ninety-six equal steps of 12.5 cents, as proposed by Mexican composer Juliàn Carillo. Many composers work with seemingly arbitrary divisions of the octave, such as nineteen-tone (63.2 cents) and thirty-one-tone (38.7 cents). These tunings include pitches that come close to key intervals in just intonation (see below). The advantage of using an equal-tempered tuning to access these tunings is that any equal-tempered pitch structure can easily be transposed.
+
+
+
+Composers who have pioneered the using of equal-tempered tunings include:
+
+
+
+Easley Blackwood
+
+Juliàn Carillo 
+
+Adriaan Fokker
+
+Alois Hába
+
+Christiaan Huygens
+
+Karlheinz Stockhausen
+
+Erv Wilson
+
+Ivan Wyschnegradsky
