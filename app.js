@@ -108,7 +108,7 @@ app.get("/about", function(request,response) {
 	response.render("about");
 });
 
-http.createServer(app).listen(3000, function () {
+http.createServer(app).listen(80, function () {
 	console.log("LMP app started on port 3000");
 });
 
