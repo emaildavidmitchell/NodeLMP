@@ -92,9 +92,9 @@ app.get("/examples", function(request,response) {
 	response.render("examples");
 });
 
-app.get("/topic_modeller", function(request,response) {
-	response.redirect("http://localhost:8000/");
-});
+// app.get("/topic_modeller", function(request,response) {
+// 	response.redirect("http://localhost:8000");
+// });
 
 app.get("/contribute", function(request,response) {
 	response.render("contribute");
@@ -104,7 +104,7 @@ app.get("/about", function(request,response) {
 	response.render("about");
 });
 
-var port = 80
+var port = 3000
 http.createServer(app).listen(port, function () {
 	console.log("LMP app started on port " + port);
 });
