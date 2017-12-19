@@ -92,8 +92,8 @@ app.get("/examples", function(request,response) {
 	response.render("examples");
 });
 
-app.get("/ontology", function(request,response) {
-	response.render("ontology");
+app.get("/topic modeller", function(request,response) {
+	response.render("topic modeller");
 });
 
 app.get("/contribute", function(request,response) {
@@ -104,8 +104,9 @@ app.get("/about", function(request,response) {
 	response.render("about");
 });
 
-http.createServer(app).listen(80, function () {
-	console.log("LMP app started on port " + arguments[0]);
+var port = 80
+http.createServer(app).listen(port, function () {
+	console.log("LMP app started on port " + port);
 });
 
 
